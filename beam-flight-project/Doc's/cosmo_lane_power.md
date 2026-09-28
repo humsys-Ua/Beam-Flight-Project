@@ -51,6 +51,17 @@ Each SLO Satellite is designed as a heavy-class deployable space platform:
 2. **Thermal Management:** Closed-loop Helium-Brayton cryocoolers dropping operational HTS bus temperatures to -200°C. Radiation panels handle 300+ MW of transient thermal load.
 3. **Orbital Station-Keeping:** High-thrust Argon Ion thrusters to counteract photon-pressure recoil vector during active beam firing.
 
+## 5. Phase 1 Prototype Configuration (8-Sat Ring)
+
+To minimize initial CapEx for the "Beam-Mini" demonstration flight, the orbital segment can be deployed in a stripped-down, single-plane configuration.
+
+* **Minimum Constraint Geometry:** 8 Satellites deployed in a single circular equatorial or polar orbit at 500 km altitude.
+* **Line-of-Sight Window:** At $15^\circ$ elevation cutoff above the atmospheric dense boundary (80 km), 8 satellites ensure uninterrupted optical handover ("Make-Before-Break") for a single capsule tracking along the orbital path.
+* **Nightside Subsystem Adaptation:** 
+  * Because a 8-satellite ring lacks the continuous grid-relay capabilities of a 90-satellite network, satellites in the Earth's shadow cannot rely on real-time solar beaming from other sectors.
+  * **Solution:** The Graphene-Lithium Supercapacitor Bank (SCES-O) capacity per satellite is expanded by 600% to store enough energy during the dayside pass to fuel the 78.5-second laser propulsion pulse entirely from onboard storage during nightside operations.
+
+
 
 # Technical Specification: Cosmo-Lane Orbital Segment & Satellite Architecture (SLO)
 
@@ -104,4 +115,14 @@ Each SLO Satellite is designed as a heavy-class deployable space platform:
 1. **Лазерна матриця:** Сегментована оптична фазована решітка (OPA) для миттєвого електронного керування вектором променя без фізичного розвороту всього супутника.
 2. **Терморегуляція:** Замкнуті кріохолодильники Стірлінга/Брейтона на гелії, які знижують температуру надпровідної шини ВТНП до -200°C. Радіаційні панелі здатні розсіювати понад 300 МВт імпульсного теплового навантаження.
 3. **Орбітальна стабілізація:** Іонні двигуни високої тяги на Аргоні для миттєвої компенсації сили віддачі (тиску світла), яка виникає під час тривалої роботи силового лазера.
-4. 
+
+## 5. Конфігурація прототипу Фази 1 (Кільце з 8 супутників)
+
+Щоб мінімізувати початкові капітальні витрати (CapEx) для демонстраційного польоту «Бім-Міні», орбітальний сегмент може бути розгорнутий у спрощеній конфігурації в межах однієї площини.
+
+* **Геометрія мінімального обмеження:** 8 супутників, розгорнутих на одній круговій екваторіальній або полярній орбіті на висоті 500 км.
+* **Вікно прямої видимості:** При куті відсікання в $15^\circ$ над щільною межею атмосфери (80 км), 8 супутників забезпечують безперервну оптичну передачу керування («Make-Before-Break») для однієї капсули, що рухається вздовж орбітальної траєкторії.
+* **Адаптація підсистем нічного боку:** 
+  * Оскільки кільце з 8 супутників не має можливості безперервної ретрансляції енергії по всьому колу, як мережа з 90 супутників, апарати в тіні Землі не можуть покладатися на сонячну генерацію в реальному часі від інших секторів.
+  * **Рішення:** Ємність бортової суперконденсаторної ферми (SCES-O) на базі графену та літію збільшена на 600% для кожного супутника. Це дозволяє накопичувати достатньо енергії під час проходження сонячного боку, щоб повністю забезпечити 78.5-секундний лазерний імпульс розгону/гальмування під час роботи в тіні Землі.
+ 
