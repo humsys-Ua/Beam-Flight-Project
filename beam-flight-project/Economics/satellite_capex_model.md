@@ -14,6 +14,11 @@ The total estimated cost to design, build, and deploy the 8-satellite ring is **
 | **Ground Control & Software** | - | - | - | Absorbed under the main budget framework ($15.0M CapEx in cost_model.py). |
 | **TOTAL ORBITAL CAPEX** | | | **231.0** | **Total funding requirement for Phase 1 Satellite Segment.** |
 
+### 1.2. Phased Scaling Model & Cost Optimization Metrics
+
+- **Phase 1 Financial Boundary Condition:** The baseline CapEx allocation of **$231.0 Million USD** is strictly constrained to the initial deployment of the Phase 1 technological demonstrator segment. This budget funds exactly 8 low-power Master-satellites and a single subterranean robotic launch/recovery hub dedicated exclusively to the testing and operational tracking of the 50-kg Beam-Mini cargo drones, rather than financing the full-scale global 90-satellite gigawatt network. 
+- **Reinvestment & Robotic In-Space Manufacturing:** Financial and orbital scaling to the complete "4+ Rings" configuration will be heavily driven by organic revenue reinvestment generated from Phase 1 cargo operations and initial Oasis Protocol energy downlinks. The target unit-cost of subsequent fleet expansions ($18.0 Million USD per relay node) features an aggressive cost-down curve achieved via the structural transition of orbital deployment away from Earth-bound integration toward autonomous, robotic In-Space Manufacturing (ISM) and conveyor-style modular on-orbit assembly.
+
 ## 2. Unit Economics & Component Cost Distribution
 
 The target manufacturing cost for a single serial SLO satellite ($18.0M) is distributed across key technical subsystems:
@@ -44,6 +49,11 @@ The target manufacturing cost for a single serial SLO satellite ($18.0M) is dist
 | **Орбітальне розгортання (Запуск)** | 3 | 20.0 | 60.0 | Попутні запуски важких ракет (наприклад, класу Starship), що виводять по 2-3 супутники за один раз (~25 тонн корисного навантаження). |
 | **Наземне керування та ПЗ** | - | - | - | Враховано в межах загального бюджету проекту ($15.0 млн CapEx у файлі cost_model.py). |
 | **ЗАГАЛЬНИЙ ОРБІТАЛЬНИЙ CAPEX** | | | **231.0** | **Загальний обсяг фінансування, необхідний для орбітального сегмента Фази 1.** |
+
+### 1.2. Модель поетапного масштабування та оптимізації капітальних витрат
+
+- **Граничні фінансові умови Фази 1:** Заявлений стартовий CapEx у розмірі **$231.0 млн USD** розрахований суворо на розгортання початкового демонстраційного сегменту Фази 1. Цей бюджет фінансує виключно перші 8 супутників-майстрів малої потужності та один роботизований підземний шахтний хаб, призначені для випробувань та логістичного супроводу 50-кг дронів Beam-Mini, а не для побудови всієї гігаватної планетарної мережі з 90 платформ.
+- **Реінвестування та орбітальний роботизований монтаж:** Масштабування системи до повного угруповання «4+ Кільця» здійснюватиметься за рахунок прямого реінвестування комерційних прибутків, отриманих від перших ліній вантажної логістики та енергетичного Протоколу «Оазис». Цільова юніт-вартість супутників наступних черг розширення ($18.0 млн USD за серійний ретранслятор) враховує майбутній індустріальний перехід космічної авіації на повний автоматизований конвеєрний монтаж апаратів безпосередньо на орбіті (In-Space Manufacturing).
 
 ## 2. Юніт-економіка та розподіл вартості компонентів
 
