@@ -1,7 +1,7 @@
 # THE GLOBAL "BEAM-FLIGHT" ECOSYSTEM: CONSOLIDATED ENGINEERING & ECONOMIC REPORT
 **Author/IP Holder:** Oleksandr Anuchin  
 **Document ID:** CR-BEAMFLIGHT-2026-100  
-**Status:** Open IP Disclosure / Public Domain under CC BY 4.0  
+**Status:** «Published under strict Proprietary Architectural Public Disclosure License (PAPDL-2026). All commercial, structural, and simulation rights reserved by the Author. Unauthorized commercial duplication or sub-system implementation without bilateral royalty agreement is strictly prohibited»
 
 ## 1. GLOBAL ARCHITECTURE & SYSTEM PARADIGM
 The "Beam-Flight" transport and energy infrastructure introduces a paradigm shift in suborbital, hypersonic aerospace logistics and planetary energy distribution. The core innovation relies on the complete offboarding of primary energy sources outside the transit vehicle (the UABC capsule). By decoupling energy generation and storage from airframe dead weight, the system achieves unprecedented cargo and passenger transit profiles while establishing a dual-use terrestrial commercial energy network.
