@@ -3,7 +3,7 @@
 
 **Author & Intellectual Property Holder:** Oleksandr Anuchin  
 **Document ID:** WP-BEAMFLIGHT-MAX-2026  
-**Status:** Public Domain / Open IP Disclosure under CC BY 4.0  
+**Status:** «Published under strict Proprietary Architectural Public Disclosure License (PAPDL-2026). All commercial, structural, and simulation rights reserved by the Author. Unauthorized commercial duplication or sub-system implementation without bilateral royalty agreement is strictly prohibited»  
 
 ---
 
