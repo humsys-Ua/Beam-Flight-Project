@@ -2,7 +2,7 @@
 
 **Document ID:** TS-REFLECTOR-2026-009  
 **Associated Manifesto:** WP-BEAMFLIGHT-2026-001  
-**Status:** Public Domain / Open IP Disclosure under CC BY 4.0  
+**Status:** Published under Strict Custom Proprietary Public Disclosure License (PADL-BEAMFLIGHT-2026)  
 
 ---
 
@@ -39,7 +39,7 @@ The satellite bus is structured around a standardized mass-produced commercial p
 
 **Document ID:** TS-REFLECTOR-2026-009  
 **Пов'язаний маніфест:** WP-BEAMFLIGHT-2026-001  
-**Статус:** Відкрите розкриття IP / Суспільне надбання за ліцензією CC BY 4.0  
+**Статус проєкту:** Опубліковано на умовах Суворої Кастомної Пропрієтарної Ліцензії (PADL-BEAMFLIGHT-2026)  
 
 ---
 
