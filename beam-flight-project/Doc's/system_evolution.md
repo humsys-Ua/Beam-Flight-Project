@@ -2,7 +2,8 @@
 
 **Document ID:** TS-EVOLUTION-2026-004  
 **Associated Manifesto:** WP-BEAMFLIGHT-2026-001  
-**Status:** Public Domain / Open IP Disclosure under CC BY 4.0  
+**Status:** Published under Strict Custom Proprietary Public Disclosure License (PADL-BEAMFLIGHT-2026)  
+ 
 
 ---
 
@@ -48,7 +49,7 @@ In the finalized 90-satellite configuration, the 8 legacy battery-backed platfor
 
 **Document ID:** TS-EVOLUTION-2026-004  
 **Пов'язаний маніфест:** WP-BEAMFLIGHT-2026-001  
-**Статус:** Відкрите розкриття IP / Суспільне надбання за ліцензією CC BY 4.0  
+**Статус проєкту:** Опубліковано на умовах Суворої Кастомної Пропрієтарної Ліцензії (PADL-BEAMFLIGHT-2026)  
 
 ---
 
