@@ -1,8 +1,9 @@
 # TECHNICAL SPECIFICATION: 4+ RING REVERSE SPACE POWER GRID (POWER-NET ECHELON)
 
-**Document ID:** TS-4PRRPG-2026-011
-**Associated Manifesto:** WP-BEAMFLIGHT-2026-001
-**Status:** Public Domain / Open IP Disclosure under CC BY 4.0
+**Document ID:** TS-4PRRPG-2026-011  
+**Associated Manifesto:** WP-BEAMFLIGHT-2026-001  
+**Status:** Published under Strict Custom Proprietary Public Disclosure License (PADL-BEAMFLIGHT-2026)  
+**Core Echelon Handover Matrix:** Satellite Laser Reverse (110km to 12km) -> Subterranean MHD Recovery (12km to 0km)
 
 ## 1. MODULAR PLANETARY ALIGNMENT & POPULATED LAND COVERAGE
 
@@ -49,9 +50,10 @@ $$\Delta \theta_{\text{safe}} = \frac{(1200 \cdot 15.0) + 4500}{6371000 + 500000
 
 # ТЕХНІЧНА СПЕЦИФІКАЦІЯ: 4+ РЕВЕРСИВНА КОСМІЧНА ЕНЕРГОМЕРЕЖА (ОРБІТАЛЬНИЙ ЕШЕЛОН «POWER-NET»)
 
-**Document ID:** TS-4PRRPG-2026-011
-**Пов'язаний маніфест:** WP-BEAMFLIGHT-2026-001
-**Статус:** Відкрите розкриття IP / Суспільне надбання за ліцензією CC BY 4.0
+**Ідентифікатор документа:** TS-4PRRPG-2026-011  
+**Пов'язаний маніфест:** WP-BEAMFLIGHT-2026-001  
+**Статус проєкту:** Опубліковано на умовах Суворої Кастомної Пропрієтарної Ліцензії (PADL-BEAMFLIGHT-2026)  
+**Матриця перемикання ешелонів:** Орбітальний лазерний реверс (110 км — 12 км) -> Підземна МГД-рекуперація (12 км — 0 км)
 
 ## 1. МОДУЛЬНЕ ПЛАНЕТАРНЕ ВИРІВНЮВАННЯ ТА ПОКРИТТЯ НАСЕЛЕНИХ ЗЕМЕЛЬ
 
