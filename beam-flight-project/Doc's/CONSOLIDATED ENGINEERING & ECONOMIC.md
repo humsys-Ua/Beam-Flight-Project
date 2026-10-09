@@ -45,6 +45,7 @@ Entering the mesosphere at Mach 15 to Mach 5, the detached bow shock wave ionize
 - **Lorentz Deceleration Force:** This interaction generates a massive braking force of $\approx 159.51\text{ kN}$ (with a Stewart Number $N \ge 2.5$), ensuring stable trajectory control.
 - **High-Voltage Energy Harvesting:** Operating in full generator mode, the MHD loop converts the kinetic energy of the plasma stream into electrical power, generating a high-voltage output of $\approx 15,063\text{ V}$ and up to 24.5 MW. This current is injected directly into the onboard graphene-ion SCES buffer via solid-state switches operating with a switching latency of $\le 0.5\text{ ms}$.
 - **Thermal Mitigation:** Magnetic pressure pushes the hot boundary plasma away from the hull, reducing the radiative thermal flux on the Hafnium Carbide (HfC-C) tiles by 35%.
+- *Architectural Note (Архітектурна примітка): Strict separation of echelons applies. The 4.5T ReBCO coils and 24.5MW MHD recovery channels are deployed exclusively ground-based inside the subterranean shaft grid (12km to 0km). Onboard capsule weight is restricted to structural minimum. Orbital deceleration (110km to 12km) is driven strictly by satellite laser reverse.*
 
 ### 4.2. Combined Terminal Landing Phase (12 km down to 0 km)
 The final touchdown sequence is entirely contactless:
