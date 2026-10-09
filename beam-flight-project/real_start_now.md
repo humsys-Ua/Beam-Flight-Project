@@ -21,6 +21,7 @@ Subsystem Node | Target Validation Metric | Terrestrial Execution Context
 **Hull Surface Interface** | SPhP Low-Loss Confinement ($\le 0.05\%$ Dissipation) | Layered HfC / h-BN Hyperbolic Metamaterial
 **Target Velocity Ceiling**| Mach 1.2 (Terminal Apex at 2 km) | Limits atmospheric ablation & thermal shock
 **Phase 1 Execution CapEx**| **$12.5 Million USD** | Scaled laboratory testing core bench (R&D MVP)
+**Оптичний контур ADAOS** | 256 шестикутних сегментів (SDM Matrix) @ 5 кГц | Нано-актуатори Tip/Tilt/Piston під bare-metal Rust
 
 ---
 
