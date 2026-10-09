@@ -2,7 +2,7 @@
 
 **Document ID:** TS-OPALS-2026-012
 **Associated Manifesto:** WP-BEAMFLIGHT-2026-001
-**Status:** Public Domain / Open IP Disclosure under CC BY 4.0
+**Status:** Published under Strict Custom Proprietary Public Disclosure License (PADL-BEAMFLIGHT-2026)  
 
 ## 1. CORE CONCEPT & GEOMETRIC DECOUPLING
 
@@ -50,7 +50,7 @@ $$F_{\text{lateral}} = (35500 \cdot \sin(8.35^{\circ})) - (1850000 \cdot 0.0028)
 
 **Document ID:** TS-OPALS-2026-012
 **Пов'язаний маніфест:** WP-BEAMFLIGHT-2026-001
-**Статус:** Відкрите розкриття IP / Суспільне надбання за ліцензією CC BY 4.0
+**Статус проєкту:** Опубліковано на умовах Суворої Кастомної Пропрієтарної Ліцензії (PADL-BEAMFLIGHT-2026)
 
 ## 1. БАЗОВА КОНЦЕПЦІЯ ТА ГЕОМЕТРИЧНЕ РОЗДІЛЕННЯ ВЕКТОРІВ
 
