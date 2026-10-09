@@ -12,6 +12,11 @@ The ground receiving station (rectenna) is engineered as a lightweight, high-tec
 - **Distributed Microwave Flux & Electromagnetic Shielding:** The Oasis Protocol utilizes a wide-area Distributed Rectenna Matrix with a radius expanding over several kilometers within barren desert zones, ensuring the downlinked 5.8 GHz microwave power density per square meter is strictly kept within international safety limits for industrial zones. Terrestrial agricultural equipment operating beneath the 30-50 meter mast grid is 100% automated (unmanned operations) and structural chassis are fully enclosed via heavy-duty Faraday cages, completely mitigating electromagnetic induction currents within onboard microelectronics and autonomous guidance SoC boards.
 - **Sub-Surface Micrometeorological Transformation:** The intense microwave flux at the absorption plane is purposefully utilized for targeted, localized thermal sterilization of the top loose desert sand layer. This process eradicates pathogenic desert spore-flora and invasive seed matrixes prior to the automated application of an artificial, high-nutrient organic biohumus layer and the deployment of closed-loop subterranean drip irrigation networks, stabilizing the artificial oasis microclimate.
 
+### Elevated High-Mast Rectenna & Macro-Climate Protection
+*   **Operational Mast Height ($H_{\text{mast}}$):** Scaled from 50 to 120 meters (industrial high-tier agro-voltaic echelon).
+*   **Aerodynamic Sail Mitigation:** The rectenna array is engineered as an open-mesh grid of tensioned superconducting wires, ensuring minimal wind resistance (low-drag profile) while maintaining a strict 5.8 GHz Faraday shield efficiency.
+*   **Microclimate Shadow Integration:** This high-altitude suspended architecture completely isolates the high-flux microwave zone from the ground, ensuring 100% electromagnetic safety for surface automated machinery and enabling the growth of tall agroforestry ecosystems underneath.
+
 ### 🌿 Desert Terraforming Mechanism
 1. **Engineered Microclimate (Agrivoltaics):** The rectenna's mesh grid captures microwaves while transmitting up to 75% of natural sunlight, creating a stable, dappled shade. Ground surface temperature drops by 12–15°C.
 2. **Moisture Conservation:** Lowered thermal stress reduces the evaporation rate of night dew and rare rainfall by 60–70%. Moisture is retained in the soil, triggering natural seed germination and vegetation.
@@ -36,6 +41,11 @@ The ground receiving station (rectenna) is engineered as a lightweight, high-tec
 
 - **Розподілений НВЧ-флюкс та електромагнітне екранування:** Протокол «Оазис» залучає велику за площею розподілену матрицю ректен радіусом у кілька кілометрів у безплідних пустельних зонах, що дозволяє утримувати щільність мікрохвильового випромінювання частотою 5.8 ГГц на квадратний метр у межах безпечних міжнародних стандартів для промислових об'єктів. Сільськогосподарська техніка, яка функціонує під 30-50 метровими щоглами, є повністю роботизованою (експлуатація без людей), а її корпуси повністю екрановані за принципом клітки Фарадея, що повністю захищає бортові мікросхеми та SoC-плати навігації від наведених струмів.
 - **Підповерхневе кріо-термічне тераформування:** Інтенсивний НВЧ-потік на приймальній площині використовується як навмисний інженерний крок для термічної стерилізації верхнього шару пустельного піску. Це знищує патогенну пустельну флору та насіння бур'янів перед автоматизованим настилом штучного родючого біогумусу та запуском закритих капілярних систем крапельного поливу, що стабілізує штучний мікроклімат оазису.
+
+### Висотна щоглова ректенна матриця та захист макроклімату
+*   **Робоча висота щогл ($H_{\text{mast}}$):** Масштабується від 50 до 120 метрів (ешелон промислової агровольтаїки високого рівня).
+*   **Зниження аеродинамічної парусності:** Приймальна матриця реалізована у вигляді ажурної сітки натягнутих надпровідних тросів, що забезпечує мінімальний опір вітру при повному утриманні мікрохвиль 5.8 ГГц за принципом клітки Фарадея.
+*   **Інженерія приземного мікроклімату:** Така високопіднята конструкція повністю виносить зону щільного НВЧ-поля високо в небо. Це гарантує 100% електромагнітну безпеку для приземної сільськогосподарської техніки та дозволяє висаджувати під антенами повноцінні лісові масиви й високі культури.
 
 ### 🌿 Механізм тераформування пустелі
 1. **Штучний мікроклімат (Агровольтаїка):** Сітчаста структура ректени затримує мікрохвилі, але пропускає до 75% сонячного світла, створюючи постійну ажурну півтінь. Температура поверхні піску знижується на 12–15°C.
