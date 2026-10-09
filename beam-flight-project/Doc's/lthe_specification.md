@@ -2,7 +2,7 @@
 
 **Document ID:** TS-LTHE-2026-004  
 **Associated Manifesto:** WP-BEAMFLIGHT-2026-001  
-**Status:** Public Domain / Open IP Disclosure under CC BY 4.0  
+**Status:** Published under Strict Custom Proprietary Public Disclosure License (PADL-BEAMFLIGHT-2026)  
 
 ---
 
@@ -56,7 +56,7 @@ To prevent nozzle wall burn-through under plasma temperatures exceeding 4000 K, 
 
 **Document ID:** TS-LTHE-2026-004  
 **Пов'язаний маніфест:** WP-BEAMFLIGHT-2026-001  
-**Статус:** Відкрите розкриття IP / Суспільне надбання за ліцензією CC BY 4.0  
+**Статус проєкту:** Опубліковано на умовах Суворої Кастомної Пропрієтарної Ліцензії (PADL-BEAMFLIGHT-2026)  
 
 ---
 
