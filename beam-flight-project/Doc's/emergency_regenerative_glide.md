@@ -1,8 +1,9 @@
 # TECHNICAL SPECIFICATION: EMERGENCY REGENERATIVE GLIDE PROTOCOL (ERGP) FOR UABC CAPSULE
 
 **Document ID:** TS-ERGP-2026-009
-**Associated Manifesto:** WP-BEAMFLIGHT-2026-001
-**Status:** Public Domain / Open IP Disclosure under CC BY 4.0
+**Associated Manifesto:** WP-BEAMFLIGHT-2026-001  
+**Status:** Published under Strict Custom Proprietary Public Disclosure License (PADL-BEAMFLIGHT-2026)  
+**Core Echelon Handover Matrix:** Satellite Laser Reverse (110km to 12km) -> Subterranean MHD Recovery (12km to 0km)
 
 ## 1. SYSTEM TRIGGER & CONTEXT
 
@@ -30,8 +31,9 @@ The system maintains active superconducting core states, peak regeneration outpu
 # ТЕХНІЧНА СПЕЦИФІКАЦІЯ: ПРОТОКОЛ АВАРІЙНОГО РЕКУПЕРАТИВНОГО ПЛАНУВАННЯ (ПАРП) КАПСУЛИ UABC
 
 **Document ID:** TS-ERGP-2026-009
-**Пов'язаний маніфест:** WP-BEAMFLIGHT-2026-001
-**Статус:** Відкрите розкриття IP / Суспільне надбання за ліцензією CC BY 4.0
+**Пов'язаний маніфест:** WP-BEAMFLIGHT-2026-001  
+**Статус проєкту:** Опубліковано на умовах Суворої Кастомної Пропрієтарної Ліцензії (PADL-BEAMFLIGHT-2026)  
+**Матриця перемикання ешелонів:** Орбітальний лазерний реверс (110 км — 12 км) -> Підземна МГД-рекуперація (12 км — 0 км)
 
 ## 1. СИСТЕМНИЙ ТРИГЕР ТА КОНТЕКСТ
 
