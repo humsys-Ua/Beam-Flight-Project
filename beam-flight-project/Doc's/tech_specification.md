@@ -29,6 +29,11 @@ Launch and recovery complexes are embedded in deep subterranean shafts (50–100
 *   **Stage 1 (0–12 km):** Vertical zenith firing limits losses to 15%, ensuring 85% energy delivery.
 *   **Stage 2 (12–110+ km):** Vacuum propagation results in a spot radius of 9.95 cm at 500 km, matching receiver limits.
 
+### 4.1. Engineering Risk Mitigation Matrix (Atmospheric & Material Constraints)
+
+- **Atmospheric Thermal Lens & Energy Breakdown Mitigation:** To completely prevent atmospheric thermal lensing and subsequent optical breakdown within the tropospheric layers, the ground-based and orbital laser matrices operate strictly in an ultra-short pulse-periodic gating mode (femtosecond/picosecond pulse packets with high repetition rates). The duration of each individual discrete pulse ($\tau < 10^{-9}\text{ s}$) is engineered to transfer kinetic energy significantly faster than the acoustic relaxation time of the medium, preventing thermal air expansion. Furthermore, the capsule's coaxial low-power leading beacon (1.5 MW) preemptively forms a localized low-density ionization optical channel, stabilizing beam coherence.
+- **Ultra-High Temperature Plasma Thermal Isolation:** The high-temperature hydrogen plasma ($4,200\text{ K} - 4,500\text{ K}$) generated inside the active core of the LTHE engine maintains zero physical contact with the tungsten/composite structural walls of the combustion chamber. Thermal isolation is achieved via magnetohydrodynamic confinement (Lorentz magnetic trap) driven by the ground and onboard HTS ReBCO coil networks (Stewart number $N_{\text{st}} \ge 2.5$). The internal chamber profile is additionally shielded by an active fluid boundary layer: liquid hydrogen ($LH_2$ at $-253^{\circ}\text{C}$) from the "Ice Jacket" capillary system is continuously throttled along the walls, acting as a cryogenic heat shield and replacing direct thermal shock with a managed cryogenic gradient.
+
 ## 5. IMPLEMENTED SAFETY PROTOCOLS & EMERGENCY MODES
 Features include Make-Before-Break handover (0.000 s latency), anti-plasma gas purging, SCES regenerative recovery, and low-echelon separation.
 
@@ -82,6 +87,11 @@ $$\text{Mach} = \frac{5150}{530.43} \approx 9.71 \text{ (Кінетичний п
 ## 4. АТМОСФЕРНІ ВТРАТИ ТА ТЕРМОДИНАМІЧНЕ ОБҐРУНТУВАННЯ
 *   **Тропосфера (0–12 км):** Робота в зеніті обмежує загасання на рівні 15% (доставка 85% енергії).
 *   **Вакуум (12–110+ км):** Поширення променя підпорядковується дифракції Релея, забезпечуючи розмір плями близько 9.95 см на дистанції 500 км (нульові геометричні втрати).
+
+### 4.1. Матриця нівелювання інженерних ризиків (Атмосферні та матеріалознавчі обмеження)
+
+- **Нівелювання термічного лінзування та оптичного пробою атмосфери:** Для повного запобігання ефекту термічного лінзування та теплового пробою променя у тропосферних шарах, наземні та орбітальні лазерні матриці працюють суворо в ультракороткому імпульсно-періодичному режимі (фемтосекундні/пікосекундні пакети імпульсів з високою частотою повторення). Тривалість кожного окремого імпульсу ($\tau < 10^{-9}$ с) розрахована на передачу енергії значно швидше за час акустичної релаксації повітряного середовища, що виключає термічне розширення газу. Додатково, зустрічний коаксіальний лазер-маяк капсули (1.5 МВт) завчасно формує випереджальний розріджений іонізаційний канал, стабілізуючи когерентність силового пучка.
+- **Термоізоляція надвисокотемпературної плазми:** Високотемпературна плазма водню ($4200\text{ К} - 4500\text{ К}$), що генерується в активній зоні двигуна LTHE, повністю ізольована від прямого фізичного контакту з вольфрамовими стінками камери згоряння. Магнітна термоізоляція реалізується за допомогою магнітогідродинамічної пастки Лоренца, що генерується ВТНП-котушками ReBCO (число Стюарта $N_{\text{st}} \ge 2.5$). Стінки камери додатково екрановані активним газодинамічним прикордонним шаром: вздовж внутрішнього профілю постійно прокачується холодний рідкий водень ($LH_2$ при $-253^{\circ}\text{C}$) «Льодової сорочки», перетворюючи прямий термічний удар на керований кріогенний градієнт.
 
 ## 5. ПРОТОКОЛИ БЕЗПЕКИ ТА АВАРІЙНІ РЕЖИМИ
 Включають безрозривний хендловер (0.000 с), антиплазмовий газовий коридор через носові форсунки, рекуперативну подушку SCES та низьке ешелонування ($Z = 95$ км).
