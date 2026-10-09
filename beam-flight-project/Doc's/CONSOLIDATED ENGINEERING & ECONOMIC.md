@@ -40,12 +40,13 @@ The orbital segment comprises a baseline configuration of 4+ concentric rings de
 ## 4. HYPERSONIC MHD DECELERATION & CONTACTLESS COMBINED LANDING
 When approaching the destination hub, the vehicle executes a multi-stage deceleration and landing sequence to eliminate friction-based hardware wear.
 
-### 4.1. Atmospheric Re-Entry and MHD Power Harvesting (110 km – 120 km down to 12 km)
-Entering the mesosphere at Mach 15 to Mach 5, the detached bow shock wave ionizes the surrounding air into a highly conductive plasma sheath ($\sigma = 85.0\text{ S/m}$). Onboard ReBCO superconducting coils (mass $\le 38.5\text{ kg}$ for Alpha class), cooled via liquid helium to 4.2 K, generate a transverse magnetic field of 4.5 Tesla.
-- **Lorentz Deceleration Force:** This interaction generates a massive braking force of $\approx 159.51\text{ kN}$ (with a Stewart Number $N \ge 2.5$), ensuring stable trajectory control.
-- **High-Voltage Energy Harvesting:** Operating in full generator mode, the MHD loop converts the kinetic energy of the plasma stream into electrical power, generating a high-voltage output of $\approx 15,063\text{ V}$ and up to 24.5 MW. This current is injected directly into the onboard graphene-ion SCES buffer via solid-state switches operating with a switching latency of $\le 0.5\text{ ms}$.
-- **Thermal Mitigation:** Magnetic pressure pushes the hot boundary plasma away from the hull, reducing the radiative thermal flux on the Hafnium Carbide (HfC-C) tiles by 35%.
-- *Architectural Note (Архітектурна примітка): Strict separation of echelons applies. The 4.5T ReBCO coils and 24.5MW MHD recovery channels are deployed exclusively ground-based inside the subterranean shaft grid (12km to 0km). Onboard capsule weight is restricted to structural minimum. Orbital deceleration (110km to 12km) is driven strictly by satellite laser reverse.*
+### 
+4.1. Atmospheric Re-Entry and Satellite Laser Reverse Braking (110 km down to 12 km)
+Upon entering the mesosphere and lower atmosphere at velocities spanning Mach 15 to Mach 5, the transit vehicle maintains a structural weight minimum by strictly offboarding all heavy magnetohydrodynamic (MHD) components to the ground infrastructure.
+• Pure Satellite Laser Reverse: Deceleration within the thermospheric and mesospheric cruise echelons (110 km to 12 km) is driven exclusively by the counter-directed photon radiation thrust and targeted pulse interactions from the active satellites of the 4+ Power-net constellation.
+• Dynamic Boundary Tracking: The orbital segment utilizes the 5 kHz ADAOS active mirror matrices to continuously refocus the braking beams onto the capsule's Dorsal Matrix ("Spine") as it descends through the upper atmospheric layers, avoiding any kinetic or thermal mechanical flaps on the airframe.
+• Thermal Mitigation via Detached Shock: Structural thermal protection relies entirely on the ovoid lifting body's high radius of bluntness. This geometry forces the peak kinetic air stagnation temperatures (up to 7000 K) to stay within the detached bow shock layer, reducing radiative thermal flux onto the Hafnium Carbide (HfC-C) composite tiles by 35% without requiring active onboard magnetic shields.
+Architectural Note: Strict separation of echelons applies, keeping heavy MHD and ReBCO components ground-based in the subterranean shaft (12km-0km) while orbital deceleration relies entirely on satellite laser reverse.
 
 ### 4.2. Combined Terminal Landing Phase (12 km down to 0 km)
 The final touchdown sequence is entirely contactless:
@@ -126,11 +127,13 @@ The foundational orbital segment deployment budget for the first 8 heavy satelli
 ## 4. ГІПЕРЗВУКОВЕ МГД-СПОВІЛЬНЕННЯ ТА БЕЗКОНТАКТНА КОМБІНОВАНА ПОСАДКА
 При підльоті до логістичного хабу призначення апарат реалізує багатоешелонний цикл гальмування та уловлювання, що повністю нівелює механічний знос посадкових вузлів.
 
-### 4.1. МГД-рекуперація та енергетичний збір (від 110 км до 12 км)
-Входячи в мезосферу на швидкостях від 15 до 5 Мах, відірвана ударна хвиля іонізує набігаюче повітря навколо носової частини в високопровідний плазмовий прошарок ($\sigma = 85.0\text{ См/м}$). Бортові надпровідні котушки ReBCO (масою ≤ 38.5 кг для класу Alpha), охолоджені рідким гелієм до 4.2 К, генерують поперечне магнітне поле індукцією 4.5 Тесла.
-- **Гальмівна сила Лоренца:** Взаємодія поля з плазмою створює потужне гальмівне зусилля $\approx 159.51\text{ кН}$ при стабільному числі Стюарта ($N \ge 2.5$), що гарантує безтурбулентне керування вектором планування.
-- **Високовольтний збір енергії:** Працюючи в режимі МГД-генератора, система конвертує кінетику плазмового потоку в електричний струм, видаючи напругу рекуперації $\approx 15 063\text{ В}$ і потужність до 24.5 МВт. Цей струм через твердотільні ключі із затримкою $\le 0.5\text{ мс}$ миттєво заряджає бортовий буфер суперконденсаторів SCES.
-- **Термічний щит:** Магнітний тиск відштовхує гарячу прикордонну плазму від фюзеляжу, знижуючи радіаційний тепловий потік на плитках із карбіду гафнію (HfC-C) на 35%.
+### 
+4.1. Входження в атмосферу та супутникове лазерне реверсивне гальмування (від 110 км до 12 км)
+Під час входження в мезосферу та нижні шари атмосфери на швидкостях від 15 до 5 Мах, польотний модуль зберігає конструктивний мінімум маси завдяки винесенню важких МГД-компонентів на наземну інфраструктуру.
+• Чистий супутниковий лазерний реверс: Сповільнення всередині круїзних ешелонів (110–12 км) здійснюється виключно за рахунок зустрічного імпульсного тиску фотонного випромінювання від сузір'я «Power-net 4+».
+• Динамічний трекінг траєкторії: Використовуються активні дзеркальні матриці ADAOS на частоті 5 кГц для фокусування променів на «Спину» капсули без механічних закрилків.
+• Термічний захист через відірвану хвилю: Захист забезпечується радіусом притуплення корпусу, що виштовхує температури у відірвану ударну хвилю та знижує навантаження на плитки HfC-C на 35%.
+Архітектурна примітка: Суворе розділення ешелонів із наземним розміщенням МГД/ReBCO (12–0 км) та лазерним реверсом на підходах.
 
 ### 4.2. Комбінована термінальна посадка (від 12 км до 0 км)
 Фінальне приземлення апарату реалізується повністю безконтактним способом:
