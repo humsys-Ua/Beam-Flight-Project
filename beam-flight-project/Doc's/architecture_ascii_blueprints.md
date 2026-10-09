@@ -62,3 +62,14 @@ This blueprint models the dynamic off-projection angular launch configuration (O
       | [Капсула|
       \_________/
 ```
+###ENGLISH
+### Technical Blueprint Legend Updates:
+* Ground Laser Grid: Operates via ultra-short pulsed wavepackets ($\tau < 10^{-9}\text{ s}$) to bypass atmospheric thermal blooming.
+* LTHE Combustion Core: Features an electromagnetic Lorentz insulation boundary layer (HTS ReBCO driven) protecting internal wall optics.
+* Subterranean Shaft Matrix: Features fully autonomous, unmanned robotic manipulators and high-tensile Faraday shielding.
+
+###УКРАЇНСЬКА
+### Оновлення інженерних приміток до графічних схем:
+* Наземна лазерна решітка: Функціонує в ультракороткому імпульсному режимі ($\tau < 10^{-9}$ с) для подолання теплового ефекту дзеркал атмосфери.
+* Камера згоряння LTHE: Оснащена МГД-пасткою Лоренца на базі ВТНП ReBCO для утримання плазмового ядра у просторі без контакту зі стінками.
+* Шахтний комплекс: Працює в 100% роботизованому безлюдному режимі із залученням суцільного екранування кліткою Фарадея.
