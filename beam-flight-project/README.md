@@ -1,7 +1,7 @@
 # OFFICIAL DECLARATION OF CONCEPTUAL INNOVATION
 **Document ID:** WP-BEAMFLIGHT-2026-001  
 **Date of Origin:** September 20, 2026  
-**Status:** Public Domain / Open IP Disclosure under Creative Commons (CC BY 4.0)  
+**Status:** «Published under strict Proprietary Architectural Public Disclosure License (PAPDL-2026). All commercial, structural, and simulation rights reserved by the Author. Unauthorized commercial duplication or sub-system implementation without bilateral royalty agreement is strictly prohibited»
 
 ## 👥 AUTHORS & COLLABORATORS
 * **Primary Author & Conceptual Architect:** Oleksandr Anuchin (Kryvyi Rih, Ukraine; tuchmeker@gmail.com; GitHub: humsys-Ua)
