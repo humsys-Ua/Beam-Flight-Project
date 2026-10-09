@@ -50,8 +50,8 @@ Unlike high-mass missions, the 15 kg drone utilizes a simplified deceleration ma
 # ТЕХНІЧНИЙ СЦЕНАРІЙ: РЕАЛЬНИЙ ЛАБОРАТОРНИЙ ЗАПУСК ПРОТОТИПУ BEAM-MINI
 
 **Document ID:** TS-EASYTEST-2026-006  
-**Цільова папка:** `/beam-flight-project/Doc's`  
-**Статус:** Відкрите розкриття IP / Суспільне надбання за ліцензією CC BY 4.0  
+**Пов'язаний маніфест:** WP-BEAMFLIGHT-2026-001  
+**Статус проєкту:** Опубліковано на умовах Суворої Кастомної Пропрієтарної Ліцензії (PADL-BEAMFLIGHT-2026)  
 
 ---
 
