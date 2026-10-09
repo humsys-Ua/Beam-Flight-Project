@@ -2,7 +2,8 @@
 
 **Document ID:** TS-COSMOLANE-2026-003  
 **Associated Manifesto:** WP-BEAMFLIGHT-2026-001  
-**Status:** Public Domain / Open IP Disclosure under CC BY 4.0  
+**Status:** Published under Strict Custom Proprietary Public Disclosure License (PADL-BEAMFLIGHT-2026)  
+**Core Echelon Handover Matrix:** Satellite Laser Reverse (110km to 12km) -> Subterranean MHD Recovery (12km to 0km) 
 
 ---
 
@@ -41,7 +42,8 @@ To validate the infrastructure safely and optimize capital expenditures (CapEx),
 
 **Document ID:** TS-COSMOLANE-2026-003  
 **Пов'язаний маніфест:** WP-BEAMFLIGHT-2026-001  
-**Статус:** Відкрите розкриття IP / Суспільне надбання за ліцензією CC BY 4.0  
+**Статус проєкту:** Опубліковано на умовах Суворої Кастомної Пропрієтарної Ліцензії (PADL-BEAMFLIGHT-2026)  
+**Матриця перемикання ешелонів:** Орбітальний лазерний реверс (110 км — 12 км) -> Підземна МГД-рекуперація (12 км — 0 км) 
 
 ---
 
