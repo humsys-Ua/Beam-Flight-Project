@@ -1,48 +1,65 @@
 """
-Beam-Flight Project - Main Mission Control Digital Twin
+Beam-Flight Project - Main Mission Control Digital Twin (Optimized Flight Physics Engine)
 Integrated with SLO (Satellite Orbit) Grid for Handover Logic at 12 km.
 """
 
 import math
 import time
-# Інтеграція нашого нового модуля енергетичної сітки супутників
-from slo_grid import SLOGridSimulation
+
+# Заглушка для автономної роботи, якщо slo_grid відсутній у локальному оточенні IDE
+try:
+    from slo_grid import SLOGridSimulation
+except ImportError:
+    class SLOGridSimulation:
+        def __init__(self):
+            self.altitude_handover_m = 12000.0
+            self.t_ground_phase = 45.0
+            self.t_satellite_phase = 78.5
+        def run_orbital_energy_profile(self, active_missions_simultaneous):
+            return {"oasis_export_gw": 2.5}
+        def calculate_gross_transmission_power(self):
+            return 250.0
 
 class BeamFlightMissionControl:
     def __init__(self):
-        # Базові константи місії
+        # Базові константи місії (Phase 1: Beam-Mini Demonstrator)
         self.target_altitude_m = 115000.0  # 115 км крейсерська висота
         self.target_mach = 15.0
-        self.capsule_mass_kg = 50.0        # Вантажний дрон (Phase 1: Beam-Mini)
+        
+        # Фізичні параметри апарату зі специфікацій TS-LTHE-2026-004
+        self.dry_mass_kg = 50.0            # Маса чистого корисного вантажу дрона
+        self.fuel_mass_kg = 200.0          # Запас кріогенного LH2 на борту
+        self.capsule_mass_kg = self.dry_mass_kg + self.fuel_mass_kg
+        
+        self.lthe_thrust_n = 35500.0       # Максимальна тяга двигуна 35.5 кН
+        self.lthe_mass_flow_rate = 3.01    # Витрата водню 3.01 кг/с
         
         # Ініціалізація орбітальної мережі супутників (SLO)
         self.slo_network = SLOGridSimulation()
         
-        # Динамічні статуси систем
+        # Статуси систем
         self.sces_buffer_charged = False
         self.lh2_fueled = False
-        self.tether_tension_n = 5000.0     # Стартовий натяг тросів
-        
+        self.tether_tension_n = 5000.0     
+
     def prepare_systems(self):
         """Фаза підготовки: JIT-заправка та зарядка енергобуфера Землі."""
         print("[PRE-LAUNCH] Ініціалізація систем наземного комплексу...")
         self.lh2_fueled = True
         self.sces_buffer_charged = True
         self.tether_tension_n = 0.0
-        print("[PRE-LAUNCH] Кріогенний водень LH2 заправлено (JIT).")
+        print(f"[PRE-LAUNCH] Кріогенний водень LH2 заправлено (Борт: {self.capsule_mass_kg} кг).")
         print("[PRE-LAUNCH] Наземний буфер SCES заряджено на 250 МВт.")
-        print("[PRE-LAUNCH] Натяг утримуючих тросів скинуто до 0 Н.")
         return self.lh2_fueled and self.sces_buffer_charged
 
     def calculate_mach(self, velocity_ms, altitude_m) -> float:
-        """Динамічний розрахунок числа Маху на основі температурних ешелонів."""
-        # Визначення температури середовища залежно від висоти
+        """Динамічний розрахунок числа Маху на основі температурних ешелонів атмосфери."""
         if altitude_m > 100000.0:
             temp = 700.0  # Термосфера
         elif altitude_m > 50000.0:
             temp = 250.0  # Мезосфера
         else:
-            temp = 288.15 - (0.0065 * altitude_m)  # Тропосфера / Стратосфера
+            temp = 288.15 - (0.0065 * altitude_m)  # Стратосфера / Тропосфера
             if temp < 216.65:
                 temp = 216.65
                 
@@ -52,79 +69,88 @@ class BeamFlightMissionControl:
         return velocity_ms / speed_of_sound
 
     def run_mission(self):
-        """Повний цикл місії з автоматичним викликом супутникових функцій на 12 км."""
+        """Повний цикл місії з чисельним інтегруванням фізики польоту за методом Ейлера."""
         if not self.prepare_systems():
             print("[CRITICAL] Системи не готові до старту. Місію скасовано.")
             return False
 
         print("\n--- ЗАПУСК КАПСУЛИ UABC (LAUNCH) ---")
-        print("[STAGE 1] Активація наземного лазера. Старт вертикального розгону під тиском світла.")
+        print("[STAGE 1] Активація наземного лазера. Старт вертикального розгону.")
         
         current_altitude = 0.0
         current_velocity = 0.0
         time_elapsed = 0.0
+        dt = 1.0  # Крок інтегрування: 1 секунда
         
-        # Крок 1: Наземний розгін до межі хендловеру (12 км / 45 секунд)
+        # Крок 1: Наземний розгін (фізична модель до 12 км)
         while current_altitude < self.slo_network.altitude_handover_m:
-            time_elapsed += 5.0
-            # Спрощена лінійна модель розгону для симуляції логіки контурів
-            current_altitude += (self.slo_network.altitude_handover_m / (self.slo_network.t_ground_phase / 5.0))
-            current_velocity += 60.0  # Набір швидкості в щільних шарах
+            time_elapsed += dt
+            
+            # Розрахунок поточної маси та сили тяжіння (g змінюється з висотою)
+            g_curr = 9.81 * (6371000.0 / (6371000.0 + current_altitude))**2
+            if self.fuel_mass_kg > 0:
+                self.fuel_mass_kg -= self.lthe_mass_flow_rate * dt
+                self.capsule_mass_kg = self.dry_mass_kg + max(0.0, self.fuel_mass_kg)
+                net_thrust = self.lthe_thrust_n
+            else:
+                net_thrust = 0.0  # Водень вигорів
+                
+            # Чисельне прискорення (без урахування аеродинамічного лобового опору для простоти)
+            acceleration = (net_thrust / self.capsule_mass_kg) - g_curr
+            current_velocity += acceleration * dt
+            current_altitude += current_velocity * dt
+            
             mach = self.calculate_mach(current_velocity, current_altitude)
-            print(f" Час: {time_elapsed:.1f}с | Висота: {current_altitude/1000.0:.2f} км | Швидкість: {mach:.2f} M (Наземний лазер)")
+            if int(time_elapsed) % 5 == 0:
+                print(f" Час: {time_elapsed:.1f}с | Висота: {current_altitude/1000.0:.2f} км | Швидкість: {mach:.2f} M | Вага: {self.capsule_mass_kg:.1f} кг")
 
-        # Крок 2: АВТОМАТИЧНИЙ ХЕНДЛОВЕР НА ВАТЕРЛІНІЇ 12 КМ
-        print("\n--- [HANDOVER DETECTED] ВИСОТА 12.0 КМ ДОСЯГНУТА ---")
-        print("[HANDOVER] Наземний лазер автоматично вимикається (End of 45s pulse).")
+        # Крок 2: ХЕНДЛОВЕР НА РУБЕЖІ 12 КМ
+        print(f"\n--- [HANDOVER DETECTED] ВИСОТА {current_altitude/1000.0:.2f} КМ ДОСЯГНУТА ---")
+        print("[HANDOVER] Наземний лазер автоматично вимикається (End of ground phase).")
         print("[HANDOVER] Запит на перехоплення променя супутниковим ешелоном SLO...")
         
-        # Виклик функцій супутника: прорахунок пікового навантаження шини та експорту енергії Оазис
         slo_report = self.slo_network.run_orbital_energy_profile(active_missions_simultaneous=1)
-        
-        print("[STAGE 2] Пара супутників 'А-Лідер' та 'Ведомий' замкнули оптичний контур.")
-        print(f"[STAGE 2] Навантаження на кріогенну шину лідируючого супутника: {self.slo_network.calculate_gross_transmission_power():.2f} МВт.")
-        
-        # Симуляція аварійного сценарію перехоплення (про який йшлося у файлі 2 вашого проекту)
-        simulated_leader_fault = False  # Прапорець для тестування Rollback-відкату
-        if simulated_leader_fault:
-            print("[ALERT] Збій фокусування супутника 'Лідер'! Активація Rollback-протоколу.")
-            print("[EMERGENCY] Миттєве перехоплення (хендловер 0.000с) супутником 'Ведомий'. Стабілізація успішна.")
-        else:
-            print("[OK] Хендловер виконано в штатному режимі за 0.000 сек. Помилок фокусування не виявлено.")
+        print(f"[STAGE 2] Навантаження на кріогенну шину супутника: {self.slo_network.calculate_gross_transmission_power():.2f} МВт.")
+        print("[OK] Хендловер виконано безрозривно за 0.000 сек.")
 
-        # Крок 3: Супутниковий розгін (від 12 км до 110-115 км / 78.5 секунд)
-        print("\n[STAGE 2] Розгін супутниковим лазером у розріджених шарах атмосфери та мезосфері...")
-        sat_phase_time = 0.0
+        # Крок 3: Супутниковий розгін (від 12 км до крейсерських 115 км)
+        print("\n[STAGE 2] Розгін супутниковим лазером у мезосфері та термосфері...")
         while current_altitude < self.target_altitude_m:
-            sat_phase_time += 10.0
-            time_elapsed += 10.0
-            current_altitude += ((self.target_altitude_m - self.slo_network.altitude_handover_m) / (self.slo_network.t_satellite_phase / 10.0))
-            current_velocity += 550.0  # Стрімкий прискорювальний імпульс у вакуумі
-            mach = self.calculate_mach(current_velocity, current_altitude)
-            print(f" Час: {time_elapsed:.1f}с | Висота: {current_altitude/1000.0:.2f} км | Швидкість: {mach:.2f} M (Супутникове ведення)")
+            time_elapsed += dt
             
-            # Маневр уникнення зіткнень на проміжних ешелонах (з вашої техспецифікації)
-            if 90000.0 < current_altitude < 100000.0:
-                print("  [MANEUVER] Активація бічного зміщення Z=95км для пропуску попутного апарату.")
+            g_curr = 9.81 * (6371000.0 / (6371000.0 + current_altitude))**2
+            if self.fuel_mass_kg > 0:
+                self.fuel_mass_kg -= self.lthe_mass_flow_rate * dt
+                self.capsule_mass_kg = self.dry_mass_kg + max(0.0, self.fuel_mass_kg)
+                net_thrust = self.lthe_thrust_n * 1.2  # У вакуумі ККД сопла вище
+            else:
+                net_thrust = 0.0
+                
+            acceleration = (net_thrust / self.capsule_mass_kg) - g_curr
+            current_velocity += acceleration * dt
+            current_altitude += current_velocity * dt
+            
+            mach = self.calculate_mach(current_velocity, current_altitude)
+            
+            if int(time_elapsed) % 10 == 0:
+                print(f" Час: {time_elapsed:.1f}с | Висота: {current_altitude/1000.0:.2f} км | Швидкість: {mach:.2f} M | Залишок LH2: {self.fuel_mass_kg:.1f} кг")
+            
+            if 90000.0 < current_altitude < 93000.0:
+                print("  [MANEUVER] Бічне зміщення Z=95км для пропуску попутного супутника.")
 
-        print(f"\n[CRUISE] Крейсерський ешелон досягнуто! Висота: {current_altitude/1000.0:.1f} км. Стабілізація швидкості на Mach {self.calculate_mach(current_velocity, current_altitude):.1f}.")
+        final_mach = self.calculate_mach(current_velocity, current_altitude)
+        print(f"\n[CRUISE] Крейсерський ешелон досягнуто! Висота: {current_altitude/1000.0:.2f} км. Швидкість: {final_mach:.2f} M.")
         
-        # Крок 4: Замикання енергетичного мосту та підготовка до гальмування
+        # Крок 4 & 5: Гальмування та посадка
         print("\n--- ФАЗА СИНХРОНІЗАЦІЇ ТА КОМБІНОВАНОГО ГАЛЬМУВАННЯ ---")
-        print("[BRAKING] Активація носового маяка капсули UABC.")
-        print("[BRAKING] Інжекція кріогенного водню крізь носові форсунки (роздування плазмового екрана).")
-        print("[BRAKING] Увімкнення зустрічного лазерного реверсу + МГД-гальмування. Перевантаження: 6.5G.")
-        print("[BRAKING] Швидкість впала нижче Mach 3. Автоматичне відсікання газового гасіння плазми.")
-        
-        # Крок 5: Посадка на лазерну подушку
-        print("\n--- ФІКСАЦІЯ ТА ПОСАДКА ---")
-        print("[LANDING] Капсула зависла над решіткою-конфоркою хабу 'ВЕКТОР-ПРАЙМ'. Швидкість: 0 м/с.")
-        print("[LANDING] Спрацювали роботизовані затискачі утримання ядра.")
-        print("[LANDING] Залишки рекуперованої енергії гальмування скинуто назад у наземну мережу.")
-        print(f"[INFO] Повний час місії склав: {time_elapsed:.1f} секунд. Мережа Оазис повернулася до базового експорту {slo_report['oasis_export_gw']:.2f} GW.")
+        print("[BRAKING] Активація МГД-каналу. Індукція поля котушок ReBCO: 4.5 Тесла.")
+        print(f"[BRAKING] Рекуперація кінетичної енергії: 24.5 МВт повернуто в бортові накопичувачі SCES.")
+        print("[LANDING] Фіксація на лазерну подушку комплексу 'ВЕКТОР-ПРАЙМ'. Швидкість: 0 м/с.")
+        print(f"[INFO] Повний час місії: {time_elapsed:.1f} сек. Мережа Оазис стабілізована на {slo_report['oasis_export_gw']:.2f} GW.")
         print("=== МІСІЮ УСПІШНО ЗАВЕРШЕНО ===")
         return True
 
 if __name__ == "__main__":
     mission = BeamFlightMissionControl()
     mission.run_mission()
+    
