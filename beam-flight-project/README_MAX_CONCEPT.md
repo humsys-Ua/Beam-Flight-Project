@@ -110,10 +110,11 @@ The foundational budget required to deploy the primary orbital segment composed 
   4. *Airframe, Brayton Cryo-Coolers & Argon Propulsion:* \$3.6 Million USD (20%).
 - **Orbital Launch Logistics:** \$60.0 Million USD (3 dedicated heavy rideshare launch missions carrying 2 to 3 stacked platforms per launch vector).
 
-### 6.2. Intellectual Property Status & Legal Disclosure
-All core technical inventions, spatial tracking methods, vector-decoupling propulsion dynamics, and integrated infrastructure designs belong exclusively to the author and sole inventor — **Oleksandr Anuchin**. 
+### 6.2. Licensing & Intellectual Property / Ліцензування та інтелектуальна власність
 
-The absolute architectural source documentation is disclosed under the international open-source legal framework of the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**, preserving global legal priority and establishing an open platform for collaborative high-tech aerospace engineering.
+**Status:** Published under Strict Custom Proprietary Public Disclosure License (PADL-BEAMFLIGHT-2026)  
+**Notice:** This document is part of an Open Architectural Disclosure to secure worldwide priority. It is NOT open-source or public domain. Any commercial use, reproduction of sub-systems, or trajectory simulations requires a signed bilateral contract with the Author (Oleksandr Anuchyn) ensuring a 1.5%–3.0% gross royalty rate and permanent engagement as Chief Conceptual Architect.
+
 
 
 # СИСТЕМА BEAM-FLIGHT: МАНІФЕСТ «МАКС-КОНЦЕПТ»
@@ -231,7 +232,9 @@ The absolute architectural source documentation is disclosed under the internati
   4. *Корпус, кріо-кулери Брейтона та аргонові маневрові двигуни:* \$3.6 млн USD (20%).
 - **Орбітальна пускова логістика:** \$60.0 млн USD (3 цільові важкі місії попутного виведення rideshare по 2–3 пакетно зібрані платформи за один пусковий вектор).
 
-### 6.2. Статус інтелектуальної власності та юридичне розкриття
-Усі ключові технічні винаходи, методи просторового балістичного трекінгу, динаміка розділення векторів похилої тяги та інтегровані інфраструктурні рішення належать одноосібно автору та єдиному винахіднику — **Олександру Анучіну**.
+### 6.2. Юридичний статус та інтелектуальна власність (Licensing & IP)
 
-Повний масив вихідної архітектурної та інженерно-математичної документації розкрито автором на умовах міжнародної публічної юридичної ліцензії **Creative Commons Attribution 4.0 International License (CC BY 4.0)**, що надійно закріплює світовий пріоритет авторства та створює відкриту прозору платформу для колаборативного висотехнологічного аерокосмічного інжинірингу.
+**Статус проєкту:** Опубліковано на умовах Суворої Кастомної Пропрієтарної Ліцензії (PADL-BEAMFLIGHT-2026). Усі глобальні права захищено.
+
+Ця архітектура оприлюднена виключно для фіксації світового наукового та концептуального пріоритету винахідника (Олександра Анучіна). Будь-яке комерційне використання, реверс-инжиніринг чи копіювання елементів глобальної мережі без двосторонньої угоди суворо заборонено. Комерційна реалізація можлива лише за умов постійного залучення Автора як Головного архітектора та виплати роялті у розмірі 1.5%–3.0%.
+
