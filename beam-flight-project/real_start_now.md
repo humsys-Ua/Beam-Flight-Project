@@ -12,6 +12,12 @@ To bypass the multi-billion-dollar capital bottleneck of orbital deployment, Pha
 - **Atmospheric Wavefront Profiling:** Optical focus is managed by a downscaled, bare-metal AMD Xilinx Versal FPGA processing core executing the `#[no_std]` Rust-driven ADAOS loop at 5 kHz. At a maximum altitude of 2 km, cumulative atmospheric thermal blooming is microsecond-compensated via standard 532 nm Shack-Hartmann WDSS diagnostic matrixes.
 - **Cryogenic Gradient Attenuation:** The 50-kg Beam-Mini prototype relies on standard aerospace-grade liquid hydrogen (\(LH_2\)) capillary routing. The -253°C fuel flow stabilizes the tungsten-backed receiver matrix against short-burst laser thermal loads during the 15-second vertical ignition sequence.
 
+### 1.2. High-Duty-Cycle Pulse-Periodic Burst Mechanics
+
+To fully invalidate conservative continuous-wave (CW) thermal transfer calculations, the Phase 1 propulsion matrix strictly utilizes a High-Density Laser Burst Protocol. 
+* **The Energy Balance Matrix:** While the time-integrated average power required to sustain JIT hydrogen phase-transition inside the LTHE core is maintained at a steady $15.0 - 45.0\text{ MW}$, the sub-nanosecond spatial optical wavefront operates via ultra-short picosecond pulse packets ($\tau = 10^{-12}\text{ s}$) at a high intra-burst repetition frequency ($f = 1\text{ GHz}$). 
+* **Peak-to-Average Scaling:** This configuration scales the localized peak electromagnetic pulse power up to $\mathbf{15.0 - 45.0\text{ GW (Gigawatts)}}$ per discrete wavepacket. This extreme peak power forces non-linear optical ionization of the air, locking the coherent guide-channel driven by the 5 kHz ADAOS matrix, while the macro-scale average flux guarantees steady kinetic acceleration of the 50-kg Beam-Mini drone.
+
 ## 2. MILESTONE EXECUTION MATRIX & BUDGET BOUNDARIES
 
 Subsystem Node
@@ -63,6 +69,12 @@ Covers full laboratory & firing-range deployment
 - **Наземний розгінний трек (Нижній створ 0–2 км):** Початковий контур випробувань «Easy Test» обмежує висоту вертикального підйому стелею у 2.0 км. Передача енергії здійснюється виключно стаціонарною наземною матрицею волоконних лазерів (імпульсна потужність від 15 до 45 МВт), інтегрованою у вертикальний ствол полегшеного шахтного комплексу «Вектор-Прайм».
 - **Профілювання атмосферного фронту:** Фокусування променя забезпечується полегшеним обчислювальним ядром на базі ПЛІС AMD Xilinx Versal, що виконує bare-metal Rust-код ADAOS на частоті 5 кГц. На малих висотах до 2 км сумарне термічне лінзування атмосфери компенсується мікросекундними імпульсами за даними 532 нм датчиків Шака-Гартмана системи WDSS.
 - **Кріогенна стабілізація обшивки:** 50-кг демонстратор Beam-Mini використовує стандартну серійну аерокосмічну арматуру для подачі рідкого водню ($LH_2$). Потік палива при -253°C надійно захищає вольфрамову підкладку приймача від короткочасних термічних навантажень під час 15-секундного стартового імпульсу.
+
+### 1.2. Механіка пакетного імпульсно-періодичного розгону (Burst Mode)
+
+Для повного усунення похибок класичних розрахунків безперервного лазерного випромінювання, матриця Фази 1 використовує високощільний пакетний протокол (Laser Burst Protocol).
+* **Енергетичний баланс контуру:** У той час як середня інтегральна потужність, необхідна для підтримки JIT-кипіння водню в ядрі двигуна LTHE, стабільно утримується на рівні $15.0 - 45.0\text{ МВт}$, субнаносекундний оптичний фронт оперує ультракороткими пікосекундними імпульсами ($\tau = 10^{-12}$ с) з високою частотою повторення всередині пачки ($f = 1$ ГГц).
+* **Масштабування пікової потужності:** Ця конфігурація піднімає локальну пікову потужність електромагнітного імпульсу до $\mathbf{15.0 - 45.0\text{ ГВт (Гігават)}}$ на один дискретний хвильовий пакет. Надвисока пікова потужність забезпечує миттєву нелінійну іонізацію повітря і замикання когерентного каналу під контролем 5 кГц матриці ADAOS, тоді як середня макро-потужність гарантує безперервне кінетичне штовхання 50-кг дрона Beam-Mini.
 
 ## 2. МАТРИЦЯ ЕТАПІВ ВИКОНАННЯ ТА БЮДЖЕТНІ МЕТРИКИ
 
