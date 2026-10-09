@@ -2,7 +2,7 @@
 
 **Document ID:** TS-SCESO-2026-010  
 **Associated Manifesto:** WP-BEAMFLIGHT-2026-001  
-**Status:** Public Domain / Open IP Disclosure under CC BY 4.0  
+**Status:** Published under Strict Custom Proprietary Public Disclosure License (PADL-BEAMFLIGHT-2026)   
 
 ---
 
@@ -46,7 +46,7 @@ The total energy potential of a fully charged onboard SCES-O array is dynamicall
 
 **Document ID:** TS-SCESO-2026-010  
 **Пов'язаний маніфест:** WP-BEAMFLIGHT-2026-001  
-**Статус:** Відкрите розкриття IP / Суспільне надбання за ліцензією CC BY 4.0  
+**Статус проєкту:** Опубліковано на умовах Суворої Кастомної Пропрієтарної Ліцензії (PADL-BEAMFLIGHT-2026) 
 
 ---
 
