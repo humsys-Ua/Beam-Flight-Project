@@ -2,7 +2,7 @@
 
 **Document ID:** TS-LSM-2026-008  
 **Associated Manifesto:** WP-BEAMFLIGHT-2026-001  
-**Status:** Public Domain / Open IP Disclosure under CC BY 4.0  
+**Status:** Published under Strict Custom Proprietary Public Disclosure License (PADL-BEAMFLIGHT-2026)  
 
 ---
 
@@ -47,7 +47,7 @@ While the capsule’s external carbon-composite thermal shield (HfC-C) endures i
 
 **Document ID:** TS-LSM-2026-008  
 **Пов'язаний маніфест:** WP-BEAMFLIGHT-2026-001  
-**Статус:** Відкрите розкриття IP / Суспільне надбання за ліцензією CC BY 4.0  
+**Статус проєкту:** Опубліковано на умовах Суворої Кастомної Пропрієтарної Ліцензії (PADL-BEAMFLIGHT-2026)   
 
 ---
 
