@@ -1,8 +1,9 @@
 # TECHNICAL SPECIFICATION: COMBINED LASER CUSHION AND GROUND MHD LANDING SYSTEM
 
 **Document ID:** TS-CLML-2026-010
-**Associated Manifesto:** WP-BEAMFLIGHT-2026-001
-**Status:** Public Domain / Open IP Disclosure under CC BY 4.0
+**Associated Manifesto:** WP-BEAMFLIGHT-2026-001  
+**Status:** Published under Strict Custom Proprietary Public Disclosure License (PADL-BEAMFLIGHT-2026)  
+**Core Echelon Handover Matrix:** Satellite Laser Reverse (110km to 12km) -> Subterranean MHD Recovery (12km to 0km)
 
 ## 1. PHYSICAL PRINCIPLE & ARCHITECTURE (12 KM – 0 KM)
 
@@ -46,8 +47,9 @@ $$F_{\text{funnel}} = 42.5 \cdot 150 \cdot (3.8)^2 \cdot 0.062 \approx 57.09 \te
 # ТЕХНІЧНА СПЕЦИФІКАЦІЯ: КОМБІНОВАНА СИСТЕМА ПОСАДКИ НА ЛАЗЕРНІЙ ПОДУШЦІ ТА НАЗЕМНОМУ МГД-АМОРТИЗАТОРІ
 
 **Document ID:** TS-CLML-2026-010
-**Пов'язаний маніфест:** WP-BEAMFLIGHT-2026-001
-**Статус:** Відкрите розкриття IP / Суспільне надбання за ліцензією CC BY 4.0
+**Пов'язаний маніфест:** WP-BEAMFLIGHT-2026-001  
+**Статус проєкту:** Опубліковано на умовах Суворої Кастомної Пропрієтарної Ліцензії (PADL-BEAMFLIGHT-2026)  
+**Матриця перемикання ешелонів:** Орбітальний лазерний реверс (110 км — 12 км) -> Підземна МГД-рекуперація (12 км — 0 км)
 
 ## 1. ФІЗИЧНИЙ ПРИНЦИП ТА АРХІТЕКТУРА (12 КМ – 0 КМ)
 
