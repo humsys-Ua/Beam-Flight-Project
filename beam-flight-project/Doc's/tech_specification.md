@@ -2,7 +2,7 @@
 
 **Document ID:** TS-BEAMFLIGHT-2026-002  
 **Associated Manifesto:** WP-BEAMFLIGHT-2026-001  
-**Status:** Public Domain / Open IP Disclosure under CC BY 4.0  
+**Status:** «Published under strict Proprietary Architectural Public Disclosure License (PAPDL-2026). All commercial, structural, and simulation rights reserved by the Author. Unauthorized commercial duplication or sub-system implementation without bilateral royalty agreement is strictly prohibited»
 
 ## 1. GENERAL ARCHITECTURE OVERVIEW & PARADIGM
 
