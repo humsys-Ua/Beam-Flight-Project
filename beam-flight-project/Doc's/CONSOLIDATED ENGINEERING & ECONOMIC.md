@@ -168,5 +168,3 @@ The foundational orbital segment deployment budget for the first 8 heavy satelli
 - **НДДКР та головний вузол-прототип:** \$45.0 млн USD (проектування та первинні випробування).
 - **Серійне виробництво супутників:** \$126.0 млн USD (7 платформ за ціною \$18.0 млн за одиницю). Юніт-вартість серійного апарату складається з: лазерної OPA-матриці та оптики дзеркал — \$7.2 млн (40%), підсистеми накопичення енергії SCES-O та надпровідних шин — \$4.5 млн (25%), 5-перехідних сонячних крил — \$2.7 млн (15%), конструкції та кріогенних контурів Брейтона — \$3.6 млн (20%).
 - **Пускова логістика:** \$60.0 млн USD (3 місії попутного rideshare-виведення важкими носіями по 2–3 супутники за один старт).
-
-*Architectural Note (Архітектурна примітка): Strict separation of echelons applies. The 4.5T ReBCO coils and 24.5MW MHD recovery channels are deployed exclusively ground-based inside the subterranean shaft grid (12km to 0km). Onboard capsule weight is restricted to structural minimum. Orbital deceleration (110km to 12km) is driven strictly by satellite laser reverse.*
