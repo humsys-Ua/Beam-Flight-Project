@@ -2,7 +2,7 @@
 
 **Document ID:** TS-GROUND-GRID-2026-007  
 **Associated Manifesto:** WP-BEAMFLIGHT-2026-001  
-**Status:** Public Domain / Open IP Disclosure under CC BY 4.0  
+**Status:** Published under Strict Custom Proprietary Public Disclosure License (PADL-BEAMFLIGHT-2026) 
 
 ---
 
@@ -42,7 +42,7 @@ The recovery infrastructure operates in a reverse cycle, transforming the subter
 
 **Document ID:** TS-GROUND-GRID-2026-007  
 **Пов'язаний маніфест:** WP-BEAMFLIGHT-2026-001  
-**Статус:** Відкрите розкриття IP / Суспільне надбання за ліцензією CC BY 4.0  
+**Статус проєкту:** Опубліковано на умовах Суворої Кастомної Пропрієтарної Ліцензії (PADL-BEAMFLIGHT-2026)
 
 ---
 
