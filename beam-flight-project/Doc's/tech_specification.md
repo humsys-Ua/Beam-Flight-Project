@@ -39,7 +39,7 @@ Utilizes a 5.8 GHz frequency band to achieve atmospheric transmission efficiency
 
 **Document ID:** TS-BEAMFLIGHT-2026-002  
 **Пов'язаний маніфест:** WP-BEAMFLIGHT-2026-001  
-**Статус:** Відкрите розкриття IP / Суспільне надбання за ліцензією CC BY 4.0  
+**Статус проєкту:** Опубліковано на умовах Суворої Кастомної Пропрієтарної Ліцензії (PADL-BEAMFLIGHT-2026)   
 
 ## 1. ЗАГАЛЬНИЙ ОПИС АРХІТЕКТУРИ ТА ПАРАДИГМА
 
