@@ -3,7 +3,7 @@
 
 Document ID: TS-MIL-TALR-2026-021
 Status: Approved for Core Integration / Затверджено для інтеграції в ядро
-Project Context: Tactical Fortification & Asymmetric Perimeter Defense Layer (Brave1 / YC Moonshot)
+Project Context: Tactical Fortification & Asymmetric Perimeter Defense Layer
 
 
 ### ENGLISH VERSION
