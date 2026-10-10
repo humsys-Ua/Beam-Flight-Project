@@ -28,6 +28,35 @@ The core infrastructure of the Beam-Flight project (subterranean shafts, hexagon
 • Economic Dominance: Cost-per-kill asymmetry shifts drastically in favor of the defense infrastructure.
 
 
+### 4. TERRESTRIAL AUTONOMOUS MODE (DIRECT LINE-OF-SIGHT INTERCEPTION)
+
+When operating independently of the orbital satellite constellation ("POWER-NET"), the subterranean complex transitions into the Terrestrial Autonomous Mode (TAM). In this configuration, interception and target engagement are driven exclusively by ground-based target acquisition sensors and direct line-of-sight laser tracking [1.1].
+
+==================================================================
+   TERRESTRIAL AUTONOMOUS MODE (TAM) - DIRECT INTERCEPTION
+==================================================================
+
+           [HOSTILE SWARM / CRUISE MISSILE] (Up to 50 km)
+                 ▲                ▲
+                  \              /  
+                   \            /   Direct Multi-Megawatt
+                    \          /    Pulsed Wavepackets
+                     \        /     (τ < 10⁻⁹ s)
+                      \      /
+     ------------------\----/------------------ <-- Ground Level (0 m)
+                       ||  ||
+                   [HEXAGONAL LTHE/DEW SHAFT]
+                   [AMD XILINX CORE + RADAR]
+
+
+
+### 5. GROUND-ONLY OPERATIONAL SPECIFICATIONS
+
+• Direct Line-of-Sight Geometry: The segmentary hexagonal ADAOS mirror performs low-angle atmospheric tracking. Using real-time wavepacket wavefront correction, it projects raw energy directly onto targets moving within the local horizon (altitudes from 0 to 15 km and ranges up to 50 km) [1.1].
+• Local Sensor Integration: Target acquisition bypasses space downlink routing. The subterranean AMD Xilinx FPGA core interfaces directly with high-frequency local radar systems and co-located thermal imaging matrices via sub-nanosecond hardware ports [1.1].
+• Close-In Anti-Swarm Defense: Without the latency of space-to-ground handovers, the ground-only system operates at maximum computational speed. It executes instant re-targeting loops, neutralizing fast low-altitude threats (such as FPV swarms and quadcopters) trying to breach the installation's perimeter [1.1].
+
+				   
 ### УКРАЇНСЬКА ВЕРСІЯ
 
 
@@ -49,6 +78,36 @@ The core infrastructure of the Beam-Flight project (subterranean shafts, hexagon
 
 • Ефективна протидія роям дронів: Апаратне розпаралелювання обчислень усуває затримки операційних систем, повністю нівелюючи масовані синхронні атаки.
 • Нульовий логістичний слід: Комплекс стаціонарний, захищений підземним екрануванням клітки Фарадея та роботизований на 100%, що мінімізує людський фактор при бойовому чергуванні.
+
+
+### 4. НАЗЕМНИЙ АВТОНОМНИЙ РЕЖИМ (ПРЯМЕ ПЕРЕХОПЛЕННЯ У ЗОНІ ПРЯМОЇ ВИДИМОСТІ)
+
+У разі роботи без залучення супутникового ешелону («POWER-NET»), підземний комплекс переходить у Наземний автономний режим (НАР). У цій конфігурації виявлення, супроводження та знищення повітряних цілей здійснюється виключно за рахунок власних наземних сенсорів та оптичного каналу прямої видимості шахтної решітки [1.1].
+
+==================================================================
+        НАЗЕМНИЙ АВТОНОМНИЙ РЕЖИМ (НАР) - ПРЯМЕ ВРАЖЕННЯ
+==================================================================
+
+          [ВОРОЖИЙ РІЙ БпЛА / КРИЛАТА РАКЕТА] (До 50 км)
+                 ▲                ▲
+                  \              /  
+                   \            /   Прямі мегаватні
+                    \          /    імпульси випаровування
+                     \        /     (τ < 10⁻⁹ с)
+                      \      /
+     ------------------\----/------------------ <-- Поверхня землі (0 м)
+                       ||  ||
+                   [ГЕКСАГОНАЛЬНА ШАХТА DEW]
+                   [ЛОКАЛЬНА РЛС + AMD XILINX]
+				   
+
+### 5. ТАКТИКО-ТЕХНІЧНІ ХАРАКТЕРИСТИКИ НАЗЕМНОГО КОНТУРУ
+
+• Геометрія прямої видимості: Сегментована гексагональна матриця АДАОС адаптується для роботи під низькими кутами до горизонту. Завдяки ультракороткій видачі імпульсів (τ < 10⁻⁹ с) промінь фокусується безпосередньо на цілях, що рухаються в межах локального ешелону (висоти від 0 до 15 км, дальність — до 50 км) [1.1].
+• Інтеграція локальних сенсорів: Цільове прицілювання не залежить від супутникових даних. Обчислювальне ядро ПЛІС AMD Xilinx підключається напряму до локальних радіолокаційних станцій (РЛС) та оптико-електронних прицільних комплексів через надшвидкісні апаратні порти чіпа [1.1].
+• Ближній протиройовий захист: Повна відсутність затримок на передачу сигналу «земля-космос» дозволяє системі працювати на граничній швидкості заліза. Комплекс миттєво перемикає промінь, випалюючи швидкісні низьколітаючиі цілі (включаючи FPV-дрони), які намагаються прорватися до периметра стартової позиції [1.1].
+
+
 
 ==================================================================
         СХЕМА ТАКТИЧНОГО КУПОЛА DEW / ТРЕМІННЯ РЕЖИМІВ
