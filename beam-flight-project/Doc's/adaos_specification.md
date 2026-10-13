@@ -6,6 +6,16 @@ A three-stage synchronization protocol ensures optical stabilization during powe
 * 3. Technical Specifications Matrix
 The system complies with core operational parameters including 1,024 PZT actuators, a 5.0 kHz adjustment frequency, and high reflectivity specifications.
 
+
+### Addendum: Structural Optimization and Mass Reduction Protocol (Segmented Scaling)
+
+To mitigate manufacturing complexity, reduce total substrate mass, and lower production costs, a Segmented Architecture Optimization (SAO) variant is implemented as an alternative to the monolithic 6.5-meter beryllium substrate:
+• Modular Standardization: The 6.5-meter Deformable Mirror Matrix (DMM) is scaled using standardized, mass-produced 20-cm hexagonal segments fabricated from Reaction-Bonded Silicon Carbide (RB-SiC / SiSiC) or low-expansion glass-ceramics. This directly unifies the production line with the tactical 1.52-meter emitter of the "Beam_Hell" defense platform, cutting manufacturing overhead by up to 75% [1.1].
+• Distributed Phase Coherence: The 1,024-actuator matrix is divided into local clusters embedded within each hexagonal segment. The FPGA/GPU tensor-core engine utilizes an Amplitude Apodization Algorithm (Super-Gaussian profiling) to drive edge-power densities to zero at the inter-segment micro-gaps, eliminating the risk of edge thermal breakdown and parasitic diffraction lobes.
+• Kinematic "Shadow-Mask" Isolation: Every hexagonal junction features a stepped-lap geometry ("fish-scale" interlocking), positioning the capacitive Edge Sensors and PZT actuators in the physical geometric shadow of the substrate. Active helium/nitrogen capillary purging (Gas Knife protocol) is integrated into the gaps to provide dynamic thermal shielding against high-power scatter during the 250 MW launch transit [1.1].
+• Field-Level Maintainability (Hot-Swap): The segmented configuration enables rapid, automated replacement of individual damaged hexagonal modules via internal robotic manipulators, ensuring near-zero system downtime without requiring a full re-polishing of the entire 6.5-meter aperture.
+
+
 ## Інженерна специфікація: ADAOS (Активна динамічна адаптивна оптична система)
 * 1. Архітектура системи та компоненти
 Інфраструктура ADAOS є оптоелектронною системою із замкнутим контуром керування, яка інтегрована безпосередньо у підземну револьверно-шахтну матрицю для активної нейтралізації атмосферних спотворень та збереження когерентності силового променя. Ключові компоненти включають високошвидкісне ядро зчитування хвильового фронту на базі датчиків Шака-Гартмана (частота сканування 5,000 Гц за допомогою пілот-лазера 532 нм), 6.5-метрову матрицю деформівних дзеркал (DMM) з 1,024 п'єзоелектричними актуаторами на берилієвій підкладці з низьким розширенням, та обчислювальний модуль реального часу на тензорних ядрах FPGA/GPU з затримкою обробки менше 0.15 мілісекунди.
@@ -13,3 +23,12 @@ The system complies with core operational parameters including 1,024 PZT actuato
 Триетапний протокол синхронізації забезпечує стабілізацію оптичної лінії прямої видимості під час передачі енергії. Щоденне статичне інтерференційне калібрування картографує початкові дефекти дзеркала за допомогою внутрішнього інтерферометра. За 2.0 секунди до старту атмосферне зондування запускає пілотний лазер для розрахунку поточної матриці фазових помилок атмосфери. Під час польоту динамічне налаштування перехресних перешкод використовує диференціальні координатні карти для усунення механічного напруження між приводами та забезпечення миттєвої адаптації поверхні.
 * 3. Матриця технічних характеристик
 Система відповідає базовим експлуатаційним вимогам, включно з 1,024 актуаторами PZT, частотою юстирування 5.0 кГц та відповідними параметрами відбиття.
+
+
+### Доповнення: Протокол структурної оптимізації та зниження маси (Сегментоване масштабування)
+
+Для мінімізації складності виробництва, радикального зниження загальної маси підкладки та зменшення собівартості системи, як альтернатива монолітній 6,5-метровій берилієвій матриці впроваджується варіант Сегментованої оптимізації архітектури (СОА):
+• Модульна стандартизація: Деформівна дзеркальна матриця (ДДМ) діаметром 6,5 метрів масштабується за допомогою стандартизованих, серійних 20-сантиметрових гексагональних сегментів (шестигранників), виготовлених із реакційно-спеченого карбіду кремнію (RB-SiC / SiSiC) або ситалу. Це дозволяє повністю уніфікувати виробничу лінію з тактичним 1,52-метровим випромінювачем оборонної платформи «Beam_Hell», знижуючи витрати на розгортання виробництва на величину до 75% [1.1].
+• Розподілена фазова когерентність: Матриця з 1024 актуаторів розділяється на локальні кластери, інтегровані в кожен окремий гексагональний сегмент. Тензорне обчислювальне ядро ПЛІС/GPU використовує Алгоритм амплітудної аподизації (профілювання за супер-Гауссом) для штучного зведення щільності енергії до нуля на мікрозазорах між сегментами, що повністю усуває ризик крайового термічного пробою та появу паразитних дифракційних пелюсток.
+• Кінематична ізоляція за принципом «Тіньової маски»: Кожен міжсегментний стик має ступінчасту геометрію замка («риб'яча луска»), що дозволяє розташувати ємнісні датчики країв (Edge Sensors) та п'єзоактуатори PZT у фізичній геометричній тіні самої підкладки. У зазори інтегровано капілярний обдув очищеним гелієм або азотом (протокол «Газовий ніж») для динамічного термічного екранування від розсіяного випромінювання під час транзиту потужності 250 МВт [1.1].
+• Висока ремонтопридатність у польових умовах (Hot-Swap): Сегментована конфігурація забезпечує можливість швидкої автоматизованої заміни окремих пошкоджених шестигранних модулів за допомогою внутрішніх роботизованих маніпуляторів. Це гарантує практично нульовий час простою системи та виключає потребу в демонтажі й повторному поліруванні всієї 6,5-метрової апертури.
