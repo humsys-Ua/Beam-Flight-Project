@@ -115,3 +115,13 @@ The installation transitions between combat ready and convoy transport layouts w
 ### 🛡️ Інженерна примітка щодо активної магнітної левітації
 
 Документ також містить захист від сейсмічних коливань землі (вибухи артилерії поруч). Уся внутрішня оптична платформа у КУНЗі автоматично підвішується у магнітному полі (**Magnetic Levitation Isolation**), керованому ПЛІС Xilinx, що тримає лазерне ядро у стані абсолютного спокою, хоч би як ходила ходуром земля навколо блокпоста.
+
+---
+
+### ⚠️ SOVEREIGN SUNDRY & SOLE EXCEPTION / СУВЕРЕННЕ ЗАСТЕРЕЖЕННЯ ТА ВИНЯТКИ
+
+**English:**
+"This architecture is the personal private property of the Author. Free commercial, state, or mixed utilization of the Beam-Flight / Oasis infrastructure, its subsystems, or derivatives by any corporate entity, governmental body, or foreign branch within the territory of Ukraine is strictly prohibited. An explicit royalty-free exception may be granted solely to the Ministry of Defense of Ukraine for national security needs, strictly based on a separate, written memorandum personally executed and signed by Oleksandr Anuchyn."
+
+**Українська:**
+«Ця архітектура є особистою приватною власністю Автора. Безкоштовне використання технології Beam-Flight / Oasis, її підсистем чи похідних рішень будь-якими комерційними підприємствами, державними органами чи іноземними філіями на території України є суворо забороненим. Виняток на безоплатній основі може бути наданий виключно Міністерству оборони України для потреб національної безпеки на підставі окремого письмового меморандуму, підписаного особисто Олександром Анучіним».
