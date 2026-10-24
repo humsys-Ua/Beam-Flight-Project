@@ -1,4 +1,3 @@
-
 ## ORBITAL_MANEUVER_AND_MAINTENANCE.md (ТЕХНІЧНИЙ ОПИС)
 
 ### English Version
@@ -43,3 +42,13 @@ The architecture explicitly Rejects the traditional disposable orbital hardware 
 * Зведення з орбіти та Спуск: Супутник приймає гальмівний промінь, двигун LTHE видає плазмовий реверс, і апарат масою 1200 кг входить в атмосферу в положенні «ніс уперед». Наноструктурна обшивка HfC/h-BN переводить термічний удар у безпечні фонон-поляритонні моди (SPhP), а замкнутий водневий кріо-контур рятує електроніку від перегріву [1.1].
 * Перехоплення та М'яка Посадка: На висоті 12 км наземна матриця ADAOS підхоплює апарат за його вентральним зеленим маяком. На залишках водню супутник здійснює м'яку вертикальну посадку прямо на роботизовану «Решітку-Конфорку» підземного ложементу хабу. Час фіксації корпусу становить всього 4.2 секунди.
 * Технічний огляд в Депо: Роботизовані системи хабу проводять миттєвий ультразвуковий аудит дзеркал із карбіду кремнію, видувають мікро-наліт стиснутим азотом, проводять гарячу заміну плат ПЛІС, заправляють баки рідким воднем (LH₂), заряджають суперконденсатори — і апарат знову готовий до миттєвого лазерного виштовхування в космос [1.1].
+
+---
+
+### ⚠️ SOVEREIGN SUNDRY & SOLE EXCEPTION / СУВЕРЕННЕ ЗАСТЕРЕЖЕННЯ ТА ВИНЯТКИ
+
+**English:**
+"This architecture is the personal private property of the Author. Free commercial, state, or mixed utilization of the Beam-Flight / Oasis infrastructure, its subsystems, or derivatives by any corporate entity, governmental body, or foreign branch within the territory of Ukraine is strictly prohibited. An explicit royalty-free exception may be granted solely to the Ministry of Defense of Ukraine for national security needs, strictly based on a separate, written memorandum personally executed and signed by Oleksandr Anuchyn."
+
+**Українська:**
+«Ця архітектура є особистою приватною власністю Автора. Безкоштовне використання технології Beam-Flight / Oasis, її підсистем чи похідних рішень будь-якими комерційними підприємствами, державними органами чи іноземними філіями на території України є суворо забороненим. Виняток на безоплатній основі може бути наданий виключно Міністерству оборони України для потреб національної безпеки на підставі окремого письмового меморандуму, підписаного особисто Олександром Анучіним».
