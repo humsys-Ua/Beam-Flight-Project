@@ -47,3 +47,13 @@
 Публікація даного маніфесту Light-версії виконана з метою закріплення безумовного світового пріоритету автора. Будь-яке комерційне використання технологій, реверс-інжиніринг або симуляція підсистем проекту «Beam-Flight» без двосторонньої угоди суворо заборонені.
 * **Обов'язкове роялті:** 1.5% — 3.0% від валового доходу будь-яких похідних систем на користь Автора (Олександра Анучіна) та його прямих правонаступників.
 * **Кадровий статус:** Незамінне інтегрування Олександра Анучіна у виконавчу структуру як Беззмінного головного концептуального архітектора (Chief Conceptual Architect) із відповідним рівнем топ-менеджерської компенсації.
+
+---
+
+### ⚠️ SOVEREIGN SUNDRY & SOLE EXCEPTION / СУВЕРЕННЕ ЗАСТЕРЕЖЕННЯ ТА ВИНЯТКИ
+
+**English:**
+"This architecture is the personal private property of the Author. Free commercial, state, or mixed utilization of the Beam-Flight / Oasis infrastructure, its subsystems, or derivatives by any corporate entity, governmental body, or foreign branch within the territory of Ukraine is strictly prohibited. An explicit royalty-free exception may be granted solely to the Ministry of Defense of Ukraine for national security needs, strictly based on a separate, written memorandum personally executed and signed by Oleksandr Anuchyn."
+
+**Українська:**
+«Ця архітектура є особистою приватною власністю Автора. Безкоштовне використання технології Beam-Flight / Oasis, її підсистем чи похідних рішень будь-якими комерційними підприємствами, державними органами чи іноземними філіями на території України є суворо забороненим. Виняток на безоплатній основі може бути наданий виключно Міністерству оборони України для потреб національної безпеки на підставі окремого письмового меморандуму, підписаного особисто Олександром Анучіним».
