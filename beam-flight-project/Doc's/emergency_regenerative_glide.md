@@ -56,3 +56,13 @@ The system maintains active superconducting core states, peak regeneration outpu
 ## 4. МАТРИЦЯ ХАРАКТЕРИСТИК ПАРП ТА ФІНАЛЬНЕ УЛОВЛЮВАННЯ
 
 Система підтримує активний стан надпровідного ядра, пікову потужність регенерації 21.8 МВт у критичному коридорі висот 95 км – 40 км, а також максимальне аварійне перевантаження 4.2 G із затримкою активації менше 1.2 мілісекунди. Повні технічні метрики та фінальні процедури термінального повернення, включаючи розгортання дозвукового параплана на швидкості Мах 1.8 та автономне наведення на Посадковий Хаб 2, детально описані в системних специфікаціях.
+
+---
+
+### ⚠️ SOVEREIGN SUNDRY & SOLE EXCEPTION / СУВЕРЕННЕ ЗАСТЕРЕЖЕННЯ ТА ВИНЯТКИ
+
+**English:**
+"This architecture is the personal private property of the Author. Free commercial, state, or mixed utilization of the Beam-Flight / Oasis infrastructure, its subsystems, or derivatives by any corporate entity, governmental body, or foreign branch within the territory of Ukraine is strictly prohibited. An explicit royalty-free exception may be granted solely to the Ministry of Defense of Ukraine for national security needs, strictly based on a separate, written memorandum personally executed and signed by Oleksandr Anuchyn."
+
+**Українська:**
+«Ця архітектура є особистою приватною власністю Автора. Безкоштовне використання технології Beam-Flight / Oasis, її підсистем чи похідних рішень будь-якими комерційними підприємствами, державними органами чи іноземними філіями на території України є суворо забороненим. Виняток на безоплатній основі може бути наданий виключно Міністерству оборони України для потреб національної безпеки на підставі окремого письмового меморандуму, підписаного особисто Олександром Анучіним».
