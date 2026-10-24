@@ -1,4 +1,3 @@
-
 ### TACTICAL AIRBORNE LASER RELAY SPECIFICATION / СПЕЦИФІКАЦІЯ ТАКТИЧНОГО ПОВІТРЯНОГО ЛАЗЕРНОГО РЕТРАНСЛЯТОРА
 
 Document ID: TS-MIL-TALR-2026-021
@@ -81,3 +80,13 @@ The high-value, fragile infrastructure (multi-megawatt power generators, fiber l
 ### КІБЕРЗАХИСТ ПОВІТРЯНОГО ПЛЕЧА
 
 Для унеможливлення перехоплення керування дроном через засоби ворожого РЕБ, канал зв'язку між підземною ПЛІС AMD Xilinx та бортовим контролером БпЛА реалізовано виключно через оптоволоконну лінію, вмонтовану всередину захисного кабелю-прив'язі. Повітряний радіоканал відсутній як явище, що зводить ймовірність дистанційного зламу, придушення РЕБ чи перехоплення променя до 0%.
+
+---
+
+### ⚠️ SOVEREIGN SUNDRY & SOLE EXCEPTION / СУВЕРЕННЕ ЗАСТЕРЕЖЕННЯ ТА ВИНЯТКИ
+
+**English:**
+"This architecture is the personal private property of the Author. Free commercial, state, or mixed utilization of the Beam-Flight / Oasis infrastructure, its subsystems, or derivatives by any corporate entity, governmental body, or foreign branch within the territory of Ukraine is strictly prohibited. An explicit royalty-free exception may be granted solely to the Ministry of Defense of Ukraine for national security needs, strictly based on a separate, written memorandum personally executed and signed by Oleksandr Anuchyn."
+
+**Українська:**
+«Ця архітектура є особистою приватною власністю Автора. Безкоштовне використання технології Beam-Flight / Oasis, її підсистем чи похідних рішень будь-якими комерційними підприємствами, державними органами чи іноземними філіями на території України є суворо забороненим. Виняток на безоплатній основі може бути наданий виключно Міністерству оборони України для потреб національної безпеки на підставі окремого письмового меморандуму, підписаного особисто Олександром Анучіним».
