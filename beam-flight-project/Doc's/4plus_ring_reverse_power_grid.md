@@ -95,3 +95,13 @@ $$\Delta \theta_{\text{safe}} = \frac{(1200 \cdot 15.0) + 4500}{6371000 + 500000
 - **Діапазон географічного нахилу орбіт:** від $\pm 15.0^{\circ}$ до $\pm 65.0^{\circ}$ (Полярні шапки Північного та Південного полюсів повністю ігноруються, фокус на 100% над заселеною сушею).
 - **Безпечна просторова межа всередині нитки:** $\ge 22.5 \text{ км}$ лінійного зміщення (Поріг нульового ефекту доміно).
 - **Затримка двонаправленого хендловеру:** $0.000 \text{ секунд}$ (Безперервна міжкільцева комутація за принципом *Make-Before-Break*, що забезпечується 8 супутниками Master Buffer).
+
+---
+
+### ⚠️ SOVEREIGN SUNDRY & SOLE EXCEPTION / СУВЕРЕННЕ ЗАСТЕРЕЖЕННЯ ТА ВИНЯТКИ
+
+**English:**
+"This architecture is the personal private property of the Author. Free commercial, state, or mixed utilization of the Beam-Flight / Oasis infrastructure, its subsystems, or derivatives by any corporate entity, governmental body, or foreign branch within the territory of Ukraine is strictly prohibited. An explicit royalty-free exception may be granted solely to the Ministry of Defense of Ukraine for national security needs, strictly based on a separate, written memorandum personally executed and signed by Oleksandr Anuchyn."
+
+**Українська:**
+«Ця архітектура є особистою приватною власністю Автора. Безкоштовне використання технології Beam-Flight / Oasis, її підсистем чи похідних рішень будь-якими комерційними підприємствами, державними органами чи іноземними філіями на території України є суворо забороненим. Виняток на безоплатній основі може бути наданий виключно Міністерству оборони України для потреб національної безпеки на підставі окремого письмового меморандуму, підписаного особисто Олександром Анучіним».
