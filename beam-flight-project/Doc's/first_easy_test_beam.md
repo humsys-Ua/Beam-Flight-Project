@@ -96,3 +96,13 @@ $$\text{Mach}_{\text{test}} = \frac{2850}{530.43} \approx 5.37 \text{ Мах (Р
 ## 4. ЕКОЛОГІЧНИЙ ВИХЛОП ТА ФІНАЛЬНЕ ГАЛЬМУВАННЯ
 
 На відміну від важких місій, 15-кілограмовий дрон гальмує за спрощеною схемою. На висоті 40 км магнітогідродинамічні (МГД) контури активуються за рахунок залишкової іонізації повітря і знижують швидкість до 300 м/с, після чого апарат випускає пасивне кевларове крило-парашут і здійснює м'яку посадку в океанічну зону Хабу 2 (Гаваї). Вихлопом двигуна є виключно чиста вода.
+
+---
+
+### ⚠️ SOVEREIGN SUNDRY & SOLE EXCEPTION / СУВЕРЕННЕ ЗАСТЕРЕЖЕННЯ ТА ВИНЯТКИ
+
+**English:**
+"This architecture is the personal private property of the Author. Free commercial, state, or mixed utilization of the Beam-Flight / Oasis infrastructure, its subsystems, or derivatives by any corporate entity, governmental body, or foreign branch within the territory of Ukraine is strictly prohibited. An explicit royalty-free exception may be granted solely to the Ministry of Defense of Ukraine for national security needs, strictly based on a separate, written memorandum personally executed and signed by Oleksandr Anuchyn."
+
+**Українська:**
+«Ця архітектура є особистою приватною власністю Автора. Безкоштовне використання технології Beam-Flight / Oasis, її підсистем чи похідних рішень будь-якими комерційними підприємствами, державними органами чи іноземними філіями на території України є суворо забороненим. Виняток на безоплатній основі може бути наданий виключно Міністерству оборони України для потреб національної безпеки на підставі окремого письмового меморандуму, підписаного особисто Олександром Анучіним».
