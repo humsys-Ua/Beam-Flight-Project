@@ -238,3 +238,12 @@ The foundational budget required to deploy the primary orbital segment composed 
 
 Ця архітектура оприлюднена виключно для фіксації світового наукового та концептуального пріоритету винахідника (Олександра Анучіна). Будь-яке комерційне використання, реверс-инжиніринг чи копіювання елементів глобальної мережі без двосторонньої угоди суворо заборонено. Комерційна реалізація можлива лише за умов постійного залучення Автора як Головного архітектора та виплати роялті у розмірі 1.5%–3.0%.
 
+---
+
+## ⚠️ SOVEREIGN SUNDRY & SOLE EXCEPTION / СУВЕРЕННЕ ЗАСТЕРЕЖЕННЯ ТА ВИНЯТКИ
+
+**English:**
+"This architecture is the personal private property of the Author. Free commercial, state, or mixed utilization of the Beam-Flight / Oasis infrastructure, its subsystems, or derivatives by any corporate entity, governmental body, or foreign branch within the territory of Ukraine is strictly prohibited. An explicit royalty-free exception may be granted solely to the Ministry of Defense of Ukraine for national security needs, strictly based on a separate, written memorandum personally executed and signed by Oleksandr Anuchyn."
+
+**Українська:**
+«Ця архітектура є особистою приватною власністю Автора. Безкоштовне використання технології Beam-Flight / Oasis, її підсистем чи похідних рішень будь-якими комерційними підприємствами, державними органами чи іноземними філіями на території України є суворо забороненим. Виняток на безоплатній основі може бути наданий виключно Міністерству оборони України для потреб національної безпеки на підставі окремого письмового меморандуму, підписаного особисто Олександром Анучіним».
