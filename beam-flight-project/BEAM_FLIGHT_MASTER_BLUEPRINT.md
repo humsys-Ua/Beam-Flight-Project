@@ -12,14 +12,14 @@
 
 ---
 
-## 2. ПОЕТАПНИЙ РОЗВИТОК ОРБІТАЛЬНОГО СЕГМЕНТА («POWER-NET» / 500 КМ LEO)
+## 2. ПОЕТАПНИЙ РОЗВИТОК ОРБІТАЛЬНОГО СЕГМЕНТА («POWER-NET» / 500+ КМ LEO)
 * **Уніфікована платформа (1200 кг):** Усі супутники системи мають масу **1200 кг** і не несуть важких акумуляторних батарей, працюючи як активні оптичні ретранслятори в реальному часі.
-* **Етап 1 — Базове кільце та 4 хаби «Вектор-Прайм»:** Спочатку розгортається **одне базове кільце** (90 супутників / 45 пар у шаховому порядку) під 4 геополітично стабільні наземні хаби: **Дарвін** (Австралія), **Оаху** (Гаваї), **Кіто** (Еквадор), **Азорські острови** (Португалія). На базовому кільці працює **асинхронний шаховий запуск** (капсули безпечно вклинюються у вільні вікна потоку навіть при затримці старту).
-* **Етап 2 — Поступове нарощування кілець (4+):** Додаткові кільця (включаючи зустрічні Схід / Захід для прямих двосторонніх маршрутів) додаються поступово по мірі зростання комерційного навантаження, без необхідності одномоментного виробництва сотень апаратів.
+* **Етап 1 — Гнучкий старт (Одне базове кільце на висоті 500 км):** Розгортання не обов'язково починати з екватора та максимального угруповання у 90 супутників. Старт можливий із **одного базового кільця** (на висоті **500 км**), орбіта якого нахилена під пояс густонаселених міст та промислових хабів (повністю оминаючи безлюдні полярні зони). Трафік керується за принципом **асинхронного шахового запуску** (капсули безпечно вклинюються у вільні вікна потоку навіть при затримці старту).
+* **Етап 2 — Поступове розширення та висотне ешелонування (500 / 510 / 520+ км):** У міру зростання вантажопотоку та енергоспоживання (комплекси «Оазис») поступово розгортаються додаткові похилі та зустрічні кільця (Схід / Захід), включно з повним екваторіальним кільцем (до 90 супутників / 45 пар). Щоб повністю виключити ризик зіткнення на перетинах орбіт, **кожне наступне кільце розгортається на власному висотному ешелоні з кроком 10 км (500 км, 510 км, 520 км тощо)**.
 * **Ройовий транзит енергії (Solar Swarm):** Супутники на сонячній стороні орбіти безперервно збирають сонячну енергію (58.8 хв на кожному витку) і передають її ланцюжком найближчим маршрутом на супутник-диспетчер над капсулою. Усі надлишки енергії скидаються на наземні комплекси «Оазис».
 * **Стільниковий хендловер (Make-Before-Break) та Soft-Ramp:** Передача променя між супутниками відбувається безрозривно (затримка **0.000 с**). Кожен силовий промінь подається з плавним нарощуванням потужності (Soft-Ramp), щоб уникнути теплового удару по оптиці.
 * **Безпаливне маневрування та терморегуляція:** Корекція висоти супутників виконується тиском світла (фотонна віддача). Потужні інфрачервоні радіатори та замкнутий кріогенний контур із залишком рідкого водню ($LH_2$) забезпечують багаторазовий запас охолодження (58.8 хв роботи на сонці / 35.7 хв скидання тепла в тіні).
-* **Повна багаторазовість супутників («Космічне депо»):** Перші **8 супутників** виводяться ракетою **Falcon 9** як опорний каркас. Усі наступні супутники підіймаються на 500 км самостійно за методом капсули (на двигуні LTHE), герметизуючи залишок водню у контур охолодження, а для ТО штатно сідають у наземну шахту.
+* **Повна багаторазовість супутників («Космічне депо»):** Перші **8 супутників** виводяться ракетою **Falcon 9** як опорний каркас. Усі наступні супутники підіймаються на задані ешелони самостійно за методом капсули (на двигуні LTHE), герметизуючи залишок водню у контур охолодження, а для ТО штатно сідають у наземну шахту.
 
 ---
 
@@ -82,14 +82,14 @@
 
 ---
 
-## 2. PHASED ORBITAL CONSTELLATION EXPANSION ("POWER-NET" / 500 KM LEO)
+## 2. PHASED ORBITAL CONSTELLATION ## 2. PHASED ORBITAL CONSTELLATION EXPANSION ("POWER-NET" / 500+ KM LEO)
 * **Unified 1,200 kg Platform:** All constellation nodes are standardized at **1,200 kg** wet mass without heavy onboard battery banks, operating strictly as real-time optical power relays.
-* **Phase 1 — Baseline Ring & 4 "Vector-Prime" Hubs:** Initial deployment comprises **one baseline ring** (90 satellites / 45 staggered pairs) serving 4 geopolitically stable ground hubs: **Darwin** (Australia), **Oahu** (Hawaii), **Quito** (Ecuador), and **Azores** (Portugal). The single ring operates via **asynchronous chess-pattern dispatch**, allowing capsules to merge safely into traffic windows even after launch delays.
-* **Phase 2 — Gradual Multi-Ring Scaling (4+):** Additional rings (including counter-rotating East/West tracks for direct bidirectional routes) are added incrementally as cargo demand scales, eliminating the need to mass-produce hundreds of satellites upfront.
+* **Phase 1 — Flexible Kickoff (Single Baseline Ring at 500 km):** Deployment does not require starting strictly at the equator with a full 90-satellite constellation. The network can launch with **a single baseline ring** (at **500 km** altitude) inclined specifically to cover densely populated cities and industrial hubs while completely bypassing unpopulated polar regions. Traffic operates via **asynchronous chess-pattern dispatch** (capsules merge safely into traffic windows even after launch delays).
+* **Phase 2 — Gradual Multi-Ring Expansion & Altitude Layering (500 / 510 / 520+ km):** As freight demand and "Oasis" power requirements grow, additional inclined and counter-rotating rings (East/West)—up to the full equatorial ring (90 satellites / 45 staggered pairs)—are deployed incrementally. To completely eliminate collision risks at orbital intersections, **each subsequent ring is deployed on its own altitude shell separated by 10 km steps (500 km, 510 km, 520 km, etc.)**.
 * **Solar Swarm Power Transit:** Satellites on the sunlit arc (58.8 min per orbit) continuously harvest solar power and route it via the shortest inter-satellite laser chain to the active dispatcher satellite tracking the capsule. All surplus power is downlinked to terrestrial "Oasis" grids.
 * **Cellular Handover (Make-Before-Break) & Soft-Ramp:** Beam transfers between satellites execute with **0.000 s** latency gaps. Every power beam engages via a smooth **Soft-Ramp** profile to prevent optical thermal shock.
 * **Propellantless Station-Keeping & Vacuum Thermal Management:** Orbital altitude is maintained via photon radiation pressure (recoil). High-capacity infrared radiators paired with a closed-loop liquid hydrogen ($LH_2$) thermal bridge provide multi-fold cooling margins for continuous 58.8-minute sunlit operations and 35.7-minute eclipse heat rejection.
-* **Full Satellite Reusability ("Space Depot"):** The first **8 satellites** are deployed to 500 km LEO via **Falcon 9** to form the baseline orbital backbone. All subsequent satellites ascend to 500 km using the capsule's own launch method (powered by onboard LTHE engines), sealing residual $LH_2$ into a closed-loop cooling circuit, and de-orbit into the subterranean shaft for maintenance.
+* **Full Satellite Reusability ("Space Depot"):** The first **8 satellites** are deployed via **Falcon 9** to form the baseline orbital backbone. All subsequent satellites ascend to their designated altitude shells using the capsule's own launch method (powered by onboard LTHE engines), sealing residual $LH_2$ into a closed-loop cooling circuit, and de-orbit into the subterranean shaft for maintenance.
 
 ---
 
