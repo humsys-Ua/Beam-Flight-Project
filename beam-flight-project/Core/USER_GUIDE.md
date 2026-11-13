@@ -2,7 +2,7 @@
 
 **Document ID:** UG-BEAMFLIGHT-2026-001  
 **Target Folder:** `/beam-flight-project/Core`  
-**Status:** Public Domain / Open IP Disclosure under CC BY 4.0  
+
 
 ---
 
@@ -62,7 +62,6 @@ python ../Economics/roi_visual_model.py
 
 **Document ID:** UG-BEAMFLIGHT-2026-001  
 **Цільова папка:** `/beam-flight-project/Core`  
-**Статус:** Відкрите розкриття IP за ліцензією CC BY 4.0  
 
 ---
 
