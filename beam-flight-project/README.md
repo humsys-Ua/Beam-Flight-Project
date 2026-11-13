@@ -83,8 +83,6 @@ This repository is an **Open Architectural Disclosure** published exclusively to
 
 Any commercial replication, manufacturing, or deployment requires a signed bilateral agreement ensuring a **1.5%–3.0% gross revenue royalty** (extending to legal heirs) and engagement of the Author as **Chief Conceptual Architect**.
 
-> **Sovereign Exception:** Free utilization within Ukraine is strictly prohibited for all entities except the **Ministry of Defense of Ukraine** for national security needs, subject to a separate written memorandum signed personally by Oleksandr Anuchyn.
-
 ---
 ---
 
@@ -172,5 +170,3 @@ Any commercial replication, manufacturing, or deployment requires a signed bilat
 Цей репозиторій є **Відкритим Архітектурним Розкриттям**, опублікованим виключно для фіксації світового наукового та концептуального пріоритету Автора (**Олександра Анучіна**). **Проєкт НЕ є open-source або суспільним надбанням (ліцензії MIT, Apache, GPL та CC BY є прямо недійсними).**
 
 Будь-яке комерційне відтворення, виробництво чи впровадження вимагає укладання двостороннього договору з виплатою **1.5%–3.0% роялті від валового доходу** (з поширенням на спадкоємців) та залученням Автора як **Головного концептуального архітектора**.
-
-> **Суверенний виняток:** Безкоштовне використання на території України суворо заборонене для всіх суб'єктів, окрім **Міністерства оборони України** для потреб національної безпеки на підставі окремого письмового меморандуму, підписаного особисто Олександром Анучіним.
