@@ -3,6 +3,7 @@
 **Document ID:** UG-BEAMFLIGHT-2026-001  
 **Target Folder:** `/beam-flight-project/Core`  
 
+# All core «Conceptual Telemetry Mockups (Демонстраційні макети телеметрії)».
 
 ---
 
